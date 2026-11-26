@@ -25,7 +25,9 @@ publish_mode: editorial_workflow
 # Lets you preview unsaved work against a Netlify deploy preview.
 site_url: https://inntinnjourneys.com
 display_url: https://inntinnjourneys.com
-logo_url: /assets/brand/lockup-ivory.svg
+# Decap's login screen is light grey, so the ivory lockup is almost
+# invisible on it. Use the midnight one.
+logo_url: /assets/brand/lockup-midnight.svg
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"

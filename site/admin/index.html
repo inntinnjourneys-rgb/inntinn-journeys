@@ -13,8 +13,12 @@
   <style>
     html { background: #0B2039; }
     body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    #boot { color: #C5D2E2; max-width: 640px; margin: 0 auto; padding: 110px 24px;
-            line-height: 1.75; font-size: 15px; }
+    /* Overlaid, not in flow: Decap mounts into the body and the boot
+       message would otherwise push its login screen down the page. */
+    #boot { position: fixed; inset: 0; z-index: 9999; background: #0B2039;
+            color: #C5D2E2; overflow: auto;
+            padding: 110px 24px; line-height: 1.75; font-size: 15px; }
+    #boot > * { max-width: 640px; margin-left: auto; margin-right: auto; }
     #boot h1 { font-size: 13px; letter-spacing: .3em; text-transform: uppercase;
                color: #D4B98A; font-weight: 500; margin: 0 0 18px; }
     #boot.err h1 { color: #E08B84; }
@@ -88,17 +92,24 @@
     });
   }
 
-  // If Decap has not taken the page over, say why rather than going blank.
-  window.addEventListener('load', function () {
-    setTimeout(function () {
-      if (typeof window.CMS === 'undefined') {
-        cmsFailed('The bundle loaded but did not initialise. This is usually a problem in config.yml.');
+  // Clear the boot overlay as soon as the CMS exists, rather than after a
+  // fixed wait — otherwise it covers Decap's own login screen.
+  (function () {
+    var waited = 0;
+    var poll = setInterval(function () {
+      waited += 150;
+      if (typeof window.CMS !== 'undefined') {
+        clearInterval(poll);
+        var boot = document.getElementById('boot');
+        if (boot && boot.parentNode) boot.parentNode.removeChild(boot);
         return;
       }
-      var boot = document.getElementById('boot');
-      if (boot && boot.parentNode) boot.parentNode.removeChild(boot);
-    }, 6000);
-  });
+      if (waited >= 15000) {
+        clearInterval(poll);
+        cmsFailed('The bundle loaded but did not initialise within 15 seconds. This is usually a problem in config.yml.');
+      }
+    }, 150);
+  })();
 </script>
 
 <!--
