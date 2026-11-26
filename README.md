@@ -35,11 +35,16 @@ Netlify redeploys, and the change is live.
 └── apple-touch-icon.png
 ```
 
-### The `_index.json` files — important
+### The index files — important
 
-`content/countries/_index.json`, `guides/_index.json` and
-`properties/_index.json` list the entries in each folder. The browser has no
-way to list a directory, so the loader reads these.
+`content/_index/countries.json`, `guides.json` and `properties.json` list the
+entries in each folder. The browser has no way to list a directory, so the
+loader reads these.
+
+They sit **outside** the collection folders deliberately. Decap treats every
+`.json` inside a folder collection as an entry, so an index file kept in
+`content/countries/` appears in the editor as a broken record and can stop
+the collection listing altogether.
 
 **Decap does not maintain them.** After an editor adds or deletes an entry
 you must update the matching `_index.json`. Three ways to handle it:
@@ -102,9 +107,25 @@ version, check it exists at
 not exist returns a 404 from the CDN and the page stays empty with no error.
 The page now reports this itself rather than failing silently.
 
-**If saving fails with a 401 or 403**, Git Gateway is not enabled, or the
-branch in `admin/config.yml` (`main`) does not match your repository's
-default branch.
+**"Your Git Gateway backend is not returning valid settings"** means Identity
+is working but Git Gateway is not switched on, or it lost its link to the
+repository. In the Netlify dashboard:
+
+1. **Project configuration → Identity**. Confirm Identity is enabled.
+2. Scroll to **Services → Git Gateway**. If it says *Enable Git Gateway*,
+   click it and authorise the repository when prompted.
+3. If it is already enabled, click **Edit settings → Disable Git Gateway**,
+   then enable it again. The token it stores expires, and re-enabling is the
+   documented fix.
+4. Hard-refresh `/admin/` and log in again.
+
+It also appears when the repository was transferred, renamed, or the
+authorising GitHub account lost access — re-enabling re-issues the token
+against the current repository.
+
+**If saving fails with a 401 or 403**, Git Gateway is enabled but the branch
+in `admin/config.yml` (`main`) does not match your repository's default
+branch.
 
 ---
 
@@ -152,7 +173,7 @@ Rules worth telling your editors once:
 
 1. **Destinations — countries → New.** Fill `key`, name, region, latitude and
    longitude, hero image, and the four text fields. Publish.
-2. Update `content/countries/_index.json` (see section 1).
+2. Update `content/_index/countries.json` (see section 1).
 3. The map marker, the list view and the mega menu pick it up on next load.
 
 A property needs its `countryKey` to match an existing country's `key`.
@@ -172,7 +193,32 @@ files from whatever is in the folders, so editors never think about it.
 
 ---
 
-## 8. Known limitations, stated plainly
+## 8. Checking the CMS is actually wired to the site
+
+Three checks, in order. Each one isolates a different link in the chain.
+
+**1. Is the content in the repository, at the top level?**
+On GitHub, you should see `content/countries/` with 20 files at the *root* of
+the repo — not inside a `site/` folder. If your repo root contains a `site/`
+folder, Decap will find nothing: `folder: content/countries` in config.yml is
+always read relative to the repository root, even when Netlify's base
+directory points somewhere else. Either move everything up a level, or
+prefix every `folder:` in config.yml with `site/`.
+
+**2. Is the content being served?**
+Open `https://<your-site>/content/_index/countries.json`. You should get a
+list of 20 names. If this 404s but the editor works, the site is deploying
+from a different directory than the one Decap is writing to.
+
+**3. Does an edit reach the site?**
+In the editor, open any country, change the one-line positioning, and
+publish. Within a minute or two Netlify will show a new deploy triggered by
+a commit from Git Gateway. Reload the site, open that destination, and the
+new line should be there. If the commit appears in GitHub but the site does
+not change, the deploy is still running or the content cache headers were
+removed from `netlify.toml`.
+
+## 9. Known limitations, stated plainly
 
 - **One URL.** Every destination and property is a view inside `index.html`,
   so none of them can be linked to, bookmarked or ranked separately. For a

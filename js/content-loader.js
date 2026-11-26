@@ -32,7 +32,10 @@
     });
   }
   function loadFolder(dir) {
-    return getJSON("/content/" + dir + "/_index.json").then(function (names) {
+    // The index lives outside the collection folder on purpose: Decap treats
+    // every .json inside a folder collection as an entry, and an index file
+    // in there shows up as a broken record in the editor.
+    return getJSON("/content/_index/" + dir + ".json").then(function (names) {
       return Promise.all(names.map(function (n) {
         return getJSON("/content/" + dir + "/" + n + ".json").catch(function (e) {
           console.warn("skipped", dir, n, e.message);
