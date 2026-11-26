@@ -29,9 +29,10 @@ logo_url: /assets/brand/lockup-ivory.svg
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
-media_library:
-  config:
-    max_file_size: 6000000   # 6 MB. Resize before uploading; see the README.
+# No media_library block. Decap requires a `name` whenever that key is
+# present (uploadcare, cloudinary and so on). Omitting it entirely is what
+# selects the built-in repo-backed library, which is what we want: uploads
+# go to media_folder above and are committed with the entry.
 
 collections:
 
