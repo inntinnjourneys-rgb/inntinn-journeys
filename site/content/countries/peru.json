@@ -1,0 +1,20 @@
+{
+  "name": "Peru",
+  "region": "The Americas",
+  "img": "photo-1528154291023-a6525fabe5b4",
+  "lede": "Altitude shapes the order of everything, and most trips get that order wrong.",
+  "when": "May to September is dry in the highlands; the Amazon runs on a different calendar.",
+  "stay": [
+    "Sacred Valley houses",
+    "Expedition trains and river vessels",
+    "Lima city residences"
+  ],
+  "shape": [
+    "Valley before Cusco, always, for the altitude",
+    "Private access hours at the sites",
+    "Amazon as a separate week, not an add-on"
+  ],
+  "key": "peru",
+  "lon": -75.006,
+  "lat": -9.201
+}

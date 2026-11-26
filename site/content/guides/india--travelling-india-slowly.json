@@ -1,0 +1,71 @@
+{
+  "slug": "travelling-india-slowly",
+  "country": "India",
+  "countryKey": "india",
+  "eyebrow": "Destinations / South Asia / India",
+  "title": "Travelling India slowly",
+  "standfirst": "India punishes the circuit and rewards the single base. How we build a fortnight that leaves you rested rather than wrung out.",
+  "hero": "photo-1760261799672-2469a6c4c6f3",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "The country is not the unit of travel here",
+      "paras": [
+        "The usual mistake is treating India as one destination. It is roughly the size of Europe and about as internally various, and a week spent crossing it is a week spent in transit.",
+        "<strong>We plan by state, and usually by one or two states.</strong> A member with twelve nights sees Rajasthan properly, or the Kerala coast and the Western Ghats, and leaves with something to come back for."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Houses rather than hotels",
+      "image": "photo-1621293954908-907159247fc8",
+      "caption": "A private house taken whole, with its own staff.",
+      "paras": [
+        "The best rooms in India are frequently not in hotels. Family palaces, tea bungalows, coastal houses and farmhouses take guests privately, with their own cooks and their own rhythm.",
+        "<strong>For any stay over four nights we look at a house before a hotel.</strong> It costs less than the equivalent suite, and it gives a family or a group of friends the run of the place."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The parks, and how to do them",
+      "image": "photo-1759767119566-e7dad33d540b",
+      "caption": "Tiger country: two parks, four days, one naturalist throughout.",
+      "paras": [
+        "Tiger sightings are a matter of patience and of having the right naturalist, not of luck. Park permits are released months ahead and the good zones go first.",
+        "<strong>We book permits before dates are confirmed elsewhere</strong>, and we keep the same naturalist with a member across both parks so the second one starts where the first left off."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we come?",
+          "a": [
+            "<strong>October to March</strong> across most of the country. The hill stations and Ladakh reverse that entirely and open from April to September, so a summer trip goes up rather than across."
+          ]
+        },
+        {
+          "q": "How much moving is too much?",
+          "a": [
+            "One base per week is our rule, with day journeys out. Members who insist on four cities in ten nights usually tell us afterwards that they remember the airports."
+          ]
+        },
+        {
+          "q": "Is a private vehicle worth it?",
+          "a": [
+            "Yes, and we would not plan India without one. A driver who knows the state rather than the country is the single biggest difference between a smooth fortnight and a tiring one."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

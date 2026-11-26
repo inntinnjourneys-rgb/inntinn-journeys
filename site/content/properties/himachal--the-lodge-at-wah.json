@@ -1,0 +1,353 @@
+{
+  "slug": "the-lodge-at-wah",
+  "name": "The Lodge at Wah",
+  "country": "Himachal",
+  "countryKey": "himachal",
+  "area": "Palampur · Kangra Valley · Himachal Pradesh",
+  "standfirst": "Six rooms of mud, slate and courthouse cedar, set inside a working tea garden with the Dhauladhar standing over it.",
+  "slides": [
+    "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1581000598888-Y9JZXG63059AGR8I3Q7B/The+Lodge+at+Wah+Drone+Image",
+    "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622023133236-UG9XW4N6LOK32W0352VK/Path+to+Factory.JPG",
+    "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/2c4f0d8f-9a90-4be5-baad-05b96a209556/Villa+exterior+4.JPG",
+    "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1484295212321-JXVB4I7S1YM1J1OQM4CK/The+Lodge+at+Wah+-+mountain+getaway"
+  ],
+  "opening": [
+    "The Lodge began as a family house. Deepak Prakash set out to build somewhere for his own people to stay near the tea factory, and decided it should be made of the valley rather than dropped onto it. Every cottage is built from mud dug out of the site itself, under slate roofs cut in the manner of the gaddi shepherds' houses, by craftsmen who live within a few miles of it.",
+    "No paint has been used anywhere, inside or out. The colour of the walls is the colour of the earth they came from, and the white of the interiors comes from what is mixed into the plaster. Guests ask about it constantly.",
+    "The woodwork has a stranger history. While the cottages were going up, the old Palampur courthouse was being pulled down, and its cedar and pine came here instead — roof linings, banisters taken from witness stands, whole doors and windows. One of the rooms has a balcony made from the witness box.",
+    "<em>There are books in every room and more in the library. There are no televisions anywhere, which is deliberate.</em>"
+  ],
+  "openingShots": [
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1484287107722-IERADJWKHF7CWVEH2QE9/Lodge-Homestay-Himalayas-Himachal-India",
+      "tall": true,
+      "cap": "Mud walls, slate roof, cedar from the courthouse. Nothing on this cottage travelled far to get here."
+    },
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622023231820-YOMSBK55SBRZDBSKK5E8/The+Lodge+at+Wah.jpg",
+      "cap": "The main cottage, which holds the only living and dining rooms on the property."
+    },
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/3c4cb112-8f8b-4385-b32b-58fda357a66f/34A51CAA-A670-4376-B0B2-D8D0AACC2AD8.JPG",
+      "cap": "The Dhauladhar is clearest at first light and usually gone by eleven."
+    }
+  ],
+  "storyLabel": "A beautiful legacy",
+  "storyTitle": "Four generations, one garden",
+  "story": [
+    {
+      "year": "1857",
+      "heading": "A name that means “wow”",
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622092763789-4ZUJY7QRCTPQ69LGGS5Q/chaiwala_7362235.jpeg",
+      "cap": "The original factory, photographed when the estate was still shipping to Britain.",
+      "paras": [
+        "The British laid out the estate in 1857. It cultivated without a break for decades and came through the earthquake that shook the Kangra Valley in 1905 still standing.",
+        "It took its present name from Sir Sikander Hayat-Khan, son of the Nawab of Wah, who named it after his birthplace. The word itself means <em>wow</em>, which the family will tell you is the reaction they are still aiming for."
+      ]
+    },
+    {
+      "year": "1953",
+      "heading": "The Chaiwalas",
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622091725863-ZVT5H2DI2IXRO956H4JX/chaiwala_7318194.jpeg",
+      "cap": "Four generations of the family the tea trade came to call the Chaiwalas.",
+      "paras": [
+        "The family's tea story starts earlier and smaller: a provisions shop in Dehra Dun in the early 1900s, selling leaf bought in from a nearby garden. In 1917 they covered the debts on that garden and took it on lease, and the lease ran until 1952.",
+        "The first estate they bought outright was in Assam in 1934. By 1960 the family was producing something in the order of ten million kilos a year across gardens all over India, and the name Chaiwala had stuck to them for good.",
+        "Wah came to them in 1953. It is looked after now by Deepak and Surya Prakash, the third and fourth generations, with Upasana Prakash running the hospitality side."
+      ]
+    },
+    {
+      "year": "Five hundred acres",
+      "heading": "Why the lodge exists at all",
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1484216196685-FFKAF6MJIXD2RY3E7JWQ/20161215-UPU_3714.jpg",
+      "cap": "Two leaves and a bud. Everything the estate is known for depends on that being got right.",
+      "paras": [
+        "Surya grew up coming to the garden several times a year, and each visit made the case more strongly: unpolluted air said to be good for you, a valley that stays quiet, and a working estate that most people never get to stand inside.",
+        "Years of travelling elsewhere made him want to share this one. The Lodge is the result, and it is still run as a house with guests rather than a hotel with staff."
+      ]
+    }
+  ],
+  "quote": {
+    "q": "A good place to experience Palampur's tea heritage. The mud cottages with slate roofs are built in line with local architectural traditions, surrounded by woods and forest.",
+    "cite": "Vogue India"
+  },
+  "film": {
+    "youtubeId": "lwqP3eezlrA",
+    "title": "The Lodge at Wah — India's Finest Mountain Homestay In a Tea Estate",
+    "heading": "Walk the estate before you arrive",
+    "caption": "Filmed on the estate. Nothing loads from YouTube until you press play."
+  },
+  "expLabel": "The days",
+  "expTitle": "What there is to do, and what there isn't",
+  "expIntro": "Most of it happens inside the estate gates. None of it is compulsory, and the best afternoons here tend to be the ones nobody planned.",
+  "experiences": {
+    "main": {
+      "label": "The reason most people come",
+      "title": "The tea tour",
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1484216738429-361XSGVHU0FBYWC7IYD9/20161215-UPU_3513.jpg",
+      "text": "It begins with how tea is made and how it is tasted, then walks up to the factory to watch it happen: withering, rolling, fermenting, drying, sorting. If the pluckers are out you will see what two leaves and a bud actually means, and you can try it yourself. The route passes the organic farm and the polyhouses that supply the kitchen, and ends at the Tea Room with a tasting of the estate's own bouquet, tea bushes in every direction."
+    },
+    "pair": [
+      {
+        "title": "Dinner in the garden",
+        "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1624956352777-QR5L97VD2EXUZPONSGNQ/Dining+Under+the+stars.jpg",
+        "text": "A table set apart, candles and fairy lights, a menu written for the evening, your own butler and some of the cooking done in front of you. Arranged on request."
+      },
+      {
+        "title": "Birds, before breakfast",
+        "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1612785777336-DOA6H4QH6YI97A0M30UP/oriental+white+eye.jpg",
+        "text": "The gardens and fruit trees pull in everything from the Himalayan thrush to the Indian grey hornbill. There is a logbook at the house; guests are invited to start their own."
+      }
+    ],
+    "quiet": [
+      {
+        "b": "The Tea Room.",
+        "t": "An indoor-outdoor cafe set among the bushes, five minutes on foot from the house. The right place to lose an afternoon with a pot and a book."
+      },
+      {
+        "b": "Yoga.",
+        "t": "An instructor can be arranged in the yogashala in the middle of the tea gardens, subject to availability."
+      },
+      {
+        "b": "The nature trail.",
+        "t": "Estate paths for a slow walk — twenty minutes or most of a morning, depending which way you turn."
+      },
+      {
+        "b": "Games.",
+        "t": "Ludo indoors when the weather closes in, croquet on the lawn when it does not."
+      },
+      {
+        "b": "A bonfire.",
+        "t": "Lit in the garden on request, with something to eat beside it."
+      },
+      {
+        "b": "Beyond the gates.",
+        "t": "Dharamshala and the Tibetan monasteries within about an hour; the paragliding at Bir-Billing a little further on."
+      }
+    ]
+  },
+  "roomLabel": "Six rooms, three cottages",
+  "roomTitle": "Where you would sleep",
+  "roomIntro": "Every room is in the same earthy register and every one is different. The main cottage holds the living and dining rooms; the others hold only bedrooms, a minute's walk away.",
+  "rooms": [
+    {
+      "name": "Court",
+      "meta": "Standard · about 350 sq ft · main cottage, first floor",
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622176898264-SX4VP6TY8JJ528NP77J3/Court+Room.jpg",
+      "text": "Faces the mountains and the garden, with traditional mud flooring and a private balcony built from the witness stand of the old Palampur courthouse. The room that explains the house."
+    },
+    {
+      "name": "Cedar",
+      "meta": "Deluxe · over 500 sq ft · ground floor",
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622178014036-DQAOMN043GZS3CLEZGK3/Cedar+Room+view.jpg",
+      "text": "Wooden floors, cedar beams overhead and a large slate bathroom. A day bed sits under a window facing the mountains, and there is a study nook with a proper desk."
+    },
+    {
+      "name": "Pine",
+      "meta": "Deluxe · over 500 sq ft · first floor",
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622178087407-JV6HMAEU58RGPB1MQGY2/Pine+Room.jpg",
+      "text": "Directly above Cedar, with a balcony in place of the day bed and the same large slate bathroom. Traditional mud flooring, and the earth smell that comes with it."
+    },
+    {
+      "name": "Oolong",
+      "meta": "Standard · about 350 sq ft · main cottage, first floor",
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622176689927-WOJFRQOMS9GFVTZBHUZC/Oolong+Room.jpg",
+      "text": "One of the largest of the standard rooms, facing the kitchen garden, with mud flooring and a great deal of light. Directly across the landing from Court."
+    },
+    {
+      "name": "Pekoe",
+      "meta": "Standard · about 350 sq ft · ground floor",
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622177583981-NT039IQ1F2X94TCGB12N/Pekoe+Room.jpg",
+      "text": "Opens to the garden, with wooden floors and a window seat. The mountains are visible from the bed itself. Shares a private sit-out with Camellia."
+    },
+    {
+      "name": "Camellia",
+      "meta": "Standard · about 350 sq ft · ground floor",
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622177013187-52L1HSLKZ8TVG56DUGJP/Camellia+Room.jpg",
+      "text": "Wooden floors and a snug, low-lit feel, opening straight onto the garden. The furthest room from the main cottage, which some people want and some do not."
+    }
+  ],
+  "particulars": [
+    {
+      "label": "The rooms",
+      "value": "Six ensuite, across three cottages. None interconnect; each opens to the outside."
+    },
+    {
+      "label": "In the rooms",
+      "value": "King beds, all-weather air conditioning, hot and cold water, bed warmers in winter. Books rather than televisions."
+    },
+    {
+      "label": "Eating",
+      "value": "All meals in the main cottage, on the patio or in the garden. Himachali dishes and estate produce."
+    },
+    {
+      "label": "How it is built",
+      "value": "Site-excavated mud, hand-chiselled river stone and slate, reclaimed cedar and pine, linseed-oil polish."
+    },
+    {
+      "label": "Suggested stay",
+      "value": "Three to four nights. Two covers the tea tour and the valley; longer suits walkers."
+    },
+    {
+      "label": "Rates",
+      "value": "On application. Members' terms apply."
+    }
+  ],
+  "green": {
+    "label": "Responsibly built, responsibly run",
+    "heading": "The sustainability here is structural, not a card on the pillow",
+    "intro": "Most of it was decided before the walls went up, which is why it would be difficult to retrofit and easy to keep. What remains is a matter of how the house is run from day to day.",
+    "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622023133236-UG9XW4N6LOK32W0352VK/Path+to+Factory.JPG",
+    "cap": "The walk up to the factory, which is also the walk to breakfast if you take the long way.",
+    "items": [
+      "Walls of mud excavated from the site itself, raised by craftsmen from the Kangra Valley",
+      "Cedar and pine reclaimed from the demolished Palampur courthouse; estate timber replaced with new planting",
+      "Slate and river stone hand-chiselled in the local Kangra method",
+      "No paint inside or out; linseed oil in place of chemical polish",
+      "Tea grown without pesticides and hand-plucked",
+      "Vegetables and herbs from the kitchen garden and polyhouses on the estate"
+    ]
+  },
+  "gallery": [
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1581000598888-Y9JZXG63059AGR8I3Q7B/The+Lodge+at+Wah+Drone+Image",
+      "alt": "The lodge from the air",
+      "cap": "Three cottages in five hundred acres of tea. The factory is the long roof beyond."
+    },
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/2c4f0d8f-9a90-4be5-baad-05b96a209556/Villa+exterior+4.JPG",
+      "alt": "Cottage exterior",
+      "tall": true,
+      "cap": "The slate is cut the way the gaddi shepherds cut theirs, and laid to look finished from every side."
+    },
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622176689927-WOJFRQOMS9GFVTZBHUZC/Oolong+Room.jpg",
+      "alt": "Oolong room",
+      "cap": "Oolong, on the first floor of the main cottage, looking over the kitchen garden."
+    },
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622178014036-DQAOMN043GZS3CLEZGK3/Cedar+Room+view.jpg",
+      "alt": "Cedar room",
+      "cap": "Cedar takes its name from the beams, which came out of the old courthouse."
+    },
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1484216738429-361XSGVHU0FBYWC7IYD9/20161215-UPU_3513.jpg",
+      "alt": "Tea tasting",
+      "tall": true,
+      "cap": "The tasting at the end of the tour, with the bushes still in view through the window."
+    },
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1624956352777-QR5L97VD2EXUZPONSGNQ/Dining+Under+the+stars.jpg",
+      "alt": "Dinner in the garden",
+      "cap": "Dinner in the garden, laid well away from the house and lit only for the evening."
+    },
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1612786058881-PBG4VL51U0LMXRSS1VR1/WhatsApp+Image+2021-02-08+at+5.35.25+PM.jpeg",
+      "alt": "The gardens",
+      "cap": "The lawn, which does croquet in the warm months and a bonfire in the cold ones."
+    },
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1622092713857-OV8GRRUR7EBZHIRJDHZQ/chaiwala_7362231.jpeg",
+      "alt": "The original factory",
+      "cap": "The factory in its early years. The machinery has changed; the sequence has not."
+    },
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1484295212321-JXVB4I7S1YM1J1OQM4CK/The+Lodge+at+Wah+-+mountain+getaway",
+      "alt": "The lodge and the mountains",
+      "cap": "Late afternoon, when the range comes back out from behind the haze."
+    }
+  ],
+  "season": {
+    "title": "When the valley is at its best",
+    "months": [
+      {
+        "m": "Jan",
+        "r": "good"
+      },
+      {
+        "m": "Feb",
+        "r": "good"
+      },
+      {
+        "m": "Mar",
+        "r": "best"
+      },
+      {
+        "m": "Apr",
+        "r": "best"
+      },
+      {
+        "m": "May",
+        "r": "best"
+      },
+      {
+        "m": "Jun",
+        "r": "good"
+      },
+      {
+        "m": "Jul",
+        "r": "wet"
+      },
+      {
+        "m": "Aug",
+        "r": "wet"
+      },
+      {
+        "m": "Sep",
+        "r": "best"
+      },
+      {
+        "m": "Oct",
+        "r": "best"
+      },
+      {
+        "m": "Nov",
+        "r": "best"
+      },
+      {
+        "m": "Dec",
+        "r": "good"
+      }
+    ],
+    "notes": [
+      {
+        "h": "March to May",
+        "p": "The first flush, and the clearest air before the heat builds on the plains below. Rhododendron out higher up."
+      },
+      {
+        "h": "September to November",
+        "p": "The valley washed clean after the rains, the Dhauladhar visible most mornings, the second flush in the factory."
+      },
+      {
+        "h": "July and August",
+        "p": "Properly wet. Some people come for exactly that: cloud in the valley, nothing to do, rain on a slate roof."
+      }
+    ]
+  },
+  "arrival": {
+    "label": "The arrival",
+    "heading": "The last hour is the part worth having",
+    "img": "https://images.squarespace-cdn.com/content/v1/5873354420099ec947da1d0a/1486904435108-ASYUYRPZZRVMS4ANYTBQ/The+Lodge+at+Wah+Palampur",
+    "cap": "The range that follows you up the valley, and then sits above the garden for the rest of the week.",
+    "paras": [
+      "However you come — the short flight into Gaggal, the train as far as Pathankot, or the whole way up by road — the journey resolves into the same final hour. The plains fall away, the air cools and thins, and the Dhauladhar comes up on the left and stays there.",
+      "Then the road turns off into the estate and the tea closes in on both sides. By the time the cottages appear you have already stopped checking your phone.",
+      "We arrange the car, the driver and the timing so that stretch happens in daylight. It is the one part of getting here we would rather you did not sleep through."
+    ],
+    "last": "Gaggal is about an hour away; Pathankot about three. Dharamshala and the monasteries sit within an hour of the gate."
+  },
+  "press": [
+    {
+      "q": "Built in a completely environmentally-friendly fashion — your hilly escape from the ever-growing cloud of air pollution in the city.",
+      "cite": "Delhi Planet"
+    },
+    {
+      "q": "Sited within the sprawling Wah Tea Estate, The Lodge at Wah is the perfect place at which to set up camp.",
+      "cite": "Little Black Book Delhi"
+    },
+    {
+      "q": "A good option for those seeking a mix of rustic and chic.",
+      "cite": "Vogue India"
+    }
+  ]
+}

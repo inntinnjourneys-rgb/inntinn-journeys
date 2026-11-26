@@ -1,0 +1,432 @@
+# =====================================================================
+# Decap CMS — admin/config.yml
+# Inntinn Journeys
+#
+# Field names match the JSON the site already reads from /content.
+# Changing a field name here without changing the renderer will break
+# that block on the page.
+#
+# Every list is bounded on purpose. The design assumes counts.
+# =====================================================================
+
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: 'Add {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Remove {{collection}} “{{slug}}”'
+    uploadMedia: 'Upload {{path}}'
+    deleteMedia: 'Delete {{path}}'
+
+# Drafts go through review before they are published.
+publish_mode: editorial_workflow
+
+# Lets you preview unsaved work against a Netlify deploy preview.
+site_url: https://inntinnjourneys.com
+display_url: https://inntinnjourneys.com
+logo_url: /assets/brand/lockup-ivory.svg
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+media_library:
+  config:
+    max_file_size: 6000000   # 6 MB. Resize before uploading; see the README.
+
+collections:
+
+  # ===================================================================
+  # DESTINATIONS — countries. One per map marker.
+  # Adding one here puts a new pin on the map automatically.
+  # ===================================================================
+  - name: countries
+    label: "Destinations — countries"
+    label_singular: "Destination"
+    folder: content/countries
+    create: true
+    delete: true
+    slug: "{{fields.key}}"
+    extension: json
+    format: json
+    identifier_field: name
+    summary: "{{name}} — {{region}}"
+    sortable_fields: [name, region]
+    editor: { preview: false }
+    fields:
+      - label: "Key"
+        name: key
+        widget: string
+        hint: "Lower case with hyphens, e.g. kenya-tanzania. The file name and the link other entries point at. Do not change it after publishing."
+        pattern: ['^[a-z0-9-]+$', "Lower case letters, numbers and hyphens only"]
+      - { label: "Name", name: name, widget: string }
+      - label: "Region"
+        name: region
+        widget: select
+        options:
+          - "South Asia"
+          - "The Himalaya"
+          - "Southeast Asia"
+          - "Europe"
+          - "Africa & the Indian Ocean"
+          - "The Americas"
+      - { label: "Latitude", name: lat, widget: number, value_type: float, min: -56, max: 84,
+          hint: "Decimal degrees. The map frame runs 84N to 56S." }
+      - { label: "Longitude", name: lon, widget: number, value_type: float, min: -180, max: 180 }
+      - { label: "Hero image", name: img, widget: image,
+          hint: "Full bleed behind the title. 2000px wide or more, landscape." }
+      - { label: "One-line positioning", name: lede, widget: text }
+      - { label: "When to go", name: when, widget: text }
+      - { label: "Where you would stay", name: stay, widget: list, min: 2, max: 5,
+          field: { label: Item, name: item, widget: string } }
+      - { label: "How we would shape it", name: shape, widget: list, min: 2, max: 5,
+          field: { label: Item, name: item, widget: string } }
+
+  # ===================================================================
+  # DESTINATIONS — guides. Sit under a country.
+  # Block order is fixed in code. Editors fill blocks.
+  # ===================================================================
+  - name: guides
+    label: "Destinations — guides"
+    label_singular: "Guide"
+    folder: content/guides
+    create: true
+    delete: true
+    slug: "{{fields.countryKey}}--{{fields.slug}}"
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{country}} — {{title}}"
+    editor: { preview: false }
+    fields:
+      - { label: "Belongs to", name: countryKey, widget: relation, collection: countries,
+          search_fields: [name, key], value_field: key, display_fields: [name] }
+      - { label: "Country name (breadcrumb)", name: country, widget: relation, collection: countries,
+          search_fields: [name], value_field: name, display_fields: [name] }
+      - { label: "Slug", name: slug, widget: string,
+          pattern: ['^[a-z0-9-]+$', "Lower case letters, numbers and hyphens only"] }
+      - { label: "Eyebrow", name: eyebrow, widget: string,
+          hint: "Destinations / Region / Country" }
+      - { label: "Title", name: title, widget: string }
+      - { label: "Standfirst", name: standfirst, widget: text }
+      - { label: "Hero image", name: hero, widget: image }
+      - label: "Page blocks"
+        name: blocks
+        widget: list
+        min: 3
+        max: 10
+        types:
+          - label: "Opening"
+            name: intro
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Paragraphs, name: paras, widget: list, min: 1, max: 4,
+                  field: { label: Text, name: text, widget: text,
+                           hint: "Plain text. <strong>…</strong> and <em>…</em> are allowed." } }
+          - label: "Section with picture"
+            name: section
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Paragraphs, name: paras, widget: list, min: 1, max: 4,
+                  field: { label: Text, name: text, widget: text } }
+              - { label: Picture, name: image, widget: image,
+                  hint: "Crops to 1240 x 698. Upload at that ratio or wider." }
+              - { label: Caption, name: caption, widget: string, required: false }
+          - label: "Pull quote"
+            name: note
+            fields:
+              - { label: Paragraphs, name: paras, widget: list, min: 1, max: 2,
+                  field: { label: Text, name: text, widget: text } }
+          - label: "FAQ"
+            name: faq
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: "Intro line", name: intro, widget: text, required: false }
+              - label: Questions
+                name: items
+                widget: list
+                min: 3
+                max: 8
+                fields:
+                  - { label: Question, name: q, widget: string }
+                  - { label: Answer, name: a, widget: list, min: 1, max: 3,
+                      field: { label: Paragraph, name: text, widget: text } }
+          - label: "Closing call to action"
+            name: cta
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Paragraphs, name: paras, widget: list, min: 1, max: 2,
+                  field: { label: Text, name: text, widget: text } }
+
+  # ===================================================================
+  # DESTINATIONS — properties. The editorial template.
+  # Every block below the first four fields is optional: leave a block
+  # out and the page simply does not render that section.
+  # ===================================================================
+  - name: properties
+    label: "Destinations — properties"
+    label_singular: "Property"
+    folder: content/properties
+    create: true
+    delete: true
+    slug: "{{fields.countryKey}}--{{fields.slug}}"
+    extension: json
+    format: json
+    identifier_field: name
+    summary: "{{country}} — {{name}}"
+    editor: { preview: false }
+    fields:
+      - { label: "Belongs to", name: countryKey, widget: relation, collection: countries,
+          search_fields: [name, key], value_field: key, display_fields: [name] }
+      - { label: "Country name (breadcrumb)", name: country, widget: relation, collection: countries,
+          search_fields: [name], value_field: name, display_fields: [name] }
+      - { label: "Slug", name: slug, widget: string,
+          pattern: ['^[a-z0-9-]+$', "Lower case letters, numbers and hyphens only"] }
+      - { label: "Property name", name: name, widget: string }
+      - { label: "Area", name: area, widget: string,
+          hint: "Shown under the name. e.g. Palampur · Kangra Valley · Himachal Pradesh" }
+      - { label: "Standfirst", name: standfirst, widget: text }
+      - { label: "Banner note", name: flag, widget: string, required: false,
+          hint: "Leave empty on real entries. Only for sample or placeholder records." }
+
+      - { label: "Header photographs", name: slides, widget: list, min: 3, max: 5,
+          field: { label: Image, name: image, widget: image },
+          hint: "3 to 5. Full bleed, so leave room at the edges." }
+
+      - { label: "Opening paragraphs", name: opening, widget: list, min: 2, max: 5, required: false,
+          field: { label: Paragraph, name: text, widget: text },
+          hint: "The first one takes a drop cap." }
+      - label: "Opening photographs"
+        name: openingShots
+        widget: list
+        max: 3
+        required: false
+        fields:
+          - { label: Image, name: img, widget: image }
+          - { label: Caption, name: cap, widget: string }
+          - { label: "Tall crop", name: tall, widget: boolean, default: false,
+              hint: "Tick one of the three. It becomes the left column." }
+
+      - { label: "Story — label", name: storyLabel, widget: string, required: false }
+      - { label: "Story — title", name: storyTitle, widget: string, required: false }
+      - label: "Story rows"
+        name: story
+        widget: list
+        max: 4
+        required: false
+        fields:
+          - { label: "Year or label", name: year, widget: string }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Paragraphs, name: paras, widget: list, min: 1, max: 4,
+              field: { label: Text, name: text, widget: text } }
+          - { label: Image, name: img, widget: image }
+          - { label: Caption, name: cap, widget: string }
+
+      - label: "Pull quote"
+        name: quote
+        widget: object
+        required: false
+        fields:
+          - { label: Quote, name: q, widget: text }
+          - { label: Source, name: cite, widget: string }
+
+      - label: "Film"
+        name: film
+        widget: object
+        required: false
+        fields:
+          - { label: "YouTube ID", name: youtubeId, widget: string,
+              hint: "The 11 characters after v= in the URL. Nothing loads until a visitor presses play." }
+          - { label: "Video title", name: title, widget: string }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Caption, name: caption, widget: string, required: false }
+
+      - { label: "Experiences — label", name: expLabel, widget: string, required: false }
+      - { label: "Experiences — title", name: expTitle, widget: string, required: false }
+      - { label: "Experiences — intro", name: expIntro, widget: text, required: false }
+      - label: "Experiences"
+        name: experiences
+        widget: object
+        required: false
+        fields:
+          - label: "Main experience"
+            name: main
+            widget: object
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: text, widget: text }
+              - { label: Image, name: img, widget: image }
+          - label: "Two cards"
+            name: pair
+            widget: list
+            min: 2
+            max: 2
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: text, widget: text }
+              - { label: Image, name: img, widget: image }
+          - label: "Short notes"
+            name: quiet
+            widget: list
+            max: 8
+            fields:
+              - { label: "Lead-in", name: b, widget: string, hint: "Ends with a full stop." }
+              - { label: Text, name: t, widget: text }
+
+      - { label: "Rooms — label", name: roomLabel, widget: string, required: false }
+      - { label: "Rooms — title", name: roomTitle, widget: string, required: false }
+      - { label: "Rooms — intro", name: roomIntro, widget: text, required: false }
+      - label: Rooms
+        name: rooms
+        widget: list
+        max: 12
+        required: false
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: "Tier, size and position", name: meta, widget: string }
+          - { label: Description, name: text, widget: text }
+          - { label: Photograph, name: img, widget: image }
+
+      - label: "The particulars"
+        name: particulars
+        widget: list
+        min: 4
+        max: 8
+        required: false
+        hint: "Six lays out as a clean two-column list."
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: Value, name: value, widget: string }
+
+      - label: "Sustainability"
+        name: green
+        widget: object
+        required: false
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Intro, name: intro, widget: text }
+          - { label: Points, name: items, widget: list, min: 3, max: 8,
+              field: { label: Point, name: point, widget: string } }
+          - { label: Image, name: img, widget: image }
+          - { label: Caption, name: cap, widget: string }
+
+      - label: Gallery
+        name: gallery
+        widget: list
+        min: 4
+        max: 12
+        required: false
+        fields:
+          - { label: Image, name: img, widget: image }
+          - { label: "Alt text", name: alt, widget: string }
+          - { label: Caption, name: cap, widget: string,
+              hint: "A written line, not a file name. It appears under the picture." }
+          - { label: "Tall crop", name: tall, widget: boolean, default: false }
+
+      - label: "When to visit"
+        name: season
+        widget: object
+        required: false
+        fields:
+          - { label: Title, name: title, widget: string }
+          - label: Months
+            name: months
+            widget: list
+            min: 12
+            max: 12
+            hint: "Twelve, in order from January."
+            fields:
+              - { label: Month, name: m, widget: string }
+              - { label: Rating, name: r, widget: select,
+                  options: [best, good, ok, wet] }
+          - label: Notes
+            name: notes
+            widget: list
+            min: 3
+            max: 3
+            fields:
+              - { label: Heading, name: h, widget: string }
+              - { label: Text, name: p, widget: text }
+
+      - label: "The arrival"
+        name: arrival
+        widget: object
+        required: false
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Paragraphs, name: paras, widget: list, min: 1, max: 4,
+              field: { label: Text, name: text, widget: text } }
+          - { label: "Closing practical line", name: last, widget: text, required: false }
+          - { label: Image, name: img, widget: image }
+          - { label: Caption, name: cap, widget: string }
+
+      - label: Press
+        name: press
+        widget: list
+        max: 3
+        required: false
+        fields:
+          - { label: Quote, name: q, widget: text }
+          - { label: Publication, name: cite, widget: string }
+
+  # ===================================================================
+  # SITE — single entries. Fixed fields, no create or delete.
+  # ===================================================================
+  - name: pages
+    label: Site
+    editor: { preview: false }
+    files:
+      - name: contact
+        label: "Contact & footer"
+        file: content/pages/contact.json
+        fields:
+          - { label: "Office suite — city", name: deskName, widget: string }
+          - { label: Address, name: address, widget: text }
+          - { label: Telephone, name: phone, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: "Members' desk — WhatsApp", name: whatsapp, widget: string }
+          - label: Social
+            name: social
+            widget: list
+            max: 5
+            fields:
+              - { label: Network, name: network, widget: select,
+                  options: [instagram, linkedin, facebook, vimeo, youtube] }
+              - { label: URL, name: url, widget: string }
+          - label: "Licences & affiliations"
+            name: badges
+            widget: list
+            max: 4
+            fields:
+              - { label: Label, name: label, widget: string }
+          - { label: "Note under the invitation form", name: applyNote, widget: text }
+
+      - name: desks
+        label: "Desk clocks"
+        file: content/pages/desks.json
+        fields:
+          - label: Desks
+            name: desks
+            widget: list
+            min: 3
+            max: 6
+            hint: "Three to six. More than six wraps badly on a phone."
+            fields:
+              - { label: City, name: city, widget: string }
+              - { label: "Time zone", name: tz, widget: string,
+                  hint: "IANA format: Asia/Kolkata, Asia/Thimphu, Europe/London. The clock hands are worked out from this." }
+
+      - name: legal
+        label: "Legal & policies"
+        file: content/pages/legal.json
+        fields:
+          - label: Documents
+            name: documents
+            widget: list
+            max: 8
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Slug, name: slug, widget: string }
+              - { label: Body, name: body, widget: markdown }

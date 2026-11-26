@@ -1,0 +1,24 @@
+{
+  "desks": [
+    {
+      "city": "New Delhi",
+      "tz": "Asia/Kolkata"
+    },
+    {
+      "city": "Kathmandu",
+      "tz": "Asia/Kathmandu"
+    },
+    {
+      "city": "Thimphu",
+      "tz": "Asia/Thimphu"
+    },
+    {
+      "city": "Colombo",
+      "tz": "Asia/Colombo"
+    },
+    {
+      "city": "London",
+      "tz": "Europe/London"
+    }
+  ]
+}

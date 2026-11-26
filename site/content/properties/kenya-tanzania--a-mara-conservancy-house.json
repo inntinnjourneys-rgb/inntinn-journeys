@@ -1,0 +1,163 @@
+{
+  "slug": "a-mara-conservancy-house",
+  "name": "A Mara Conservancy House",
+  "flag": "Sample entry — replace in the CMS",
+  "country": "Kenya & Tanzania",
+  "countryKey": "kenya-tanzania",
+  "area": "Maasai Mara · Kenya",
+  "standfirst": "A six-tent house on leased Maasai land bordering the reserve, with its own guides, its own vehicles and no other camp in sight.",
+  "slides": [
+    "https://images.unsplash.com/photo-1759767119566-e7dad33d540b",
+    "https://images.unsplash.com/photo-1554990772-0bea55d510d5",
+    "https://images.unsplash.com/photo-1543107484-b13a21b26e8c",
+    "https://images.unsplash.com/photo-1519659528534-7fd733a832a0"
+  ],
+  "opening": [
+    "Night drives and walking are permitted here in a way they are not inside the national reserve, and the vehicle quota means a sighting is never shared with more than two or three others.",
+    "The house sits on a low ridge above a seasonal river, with the tents spaced far enough apart that none is visible from another. Each has a deck facing east, which is the direction the light comes from and the direction the game moves at dawn.",
+    "Meals are taken wherever the day has ended up: a long table under the trees, a breakfast laid out at a sighting, dinner by the fire. There is no fixed dining room and no fixed hour.",
+    "<em>Members travelling with children are given their own vehicle and a guide used to shorter drives, so the pace of the day belongs to the family rather than to the camp.</em>"
+  ],
+  "openingShots": [
+    {
+      "img": "https://images.unsplash.com/photo-1786708949981-2916772e8a59",
+      "tall": true,
+      "cap": "The conservancy permits night drives, which is most of the reason to stay on one."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1518459384564-ecfd8e80721f",
+      "cap": "The herds pass through between July and October, and the camp moves to meet them."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1517846875602-2371528547d4",
+      "cap": "Balloon mornings are worth one day of a trip, not three."
+    }
+  ],
+  "particulars": [
+    {
+      "label": "The rooms",
+      "value": "Six tents, two of them family."
+    },
+    {
+      "label": "Getting in",
+      "value": "About 45 minutes by light aircraft from Nairobi Wilson, then a short drive."
+    },
+    {
+      "label": "Suggested stay",
+      "value": "Four to six nights."
+    },
+    {
+      "label": "The land",
+      "value": "Community-leased conservancy, not national reserve."
+    },
+    {
+      "label": "Also here",
+      "value": "A treatment tent and a plunge pool."
+    },
+    {
+      "label": "Rates",
+      "value": "On application. Members' terms apply."
+    }
+  ],
+  "gallery": [
+    {
+      "img": "https://images.unsplash.com/photo-1518459384564-ecfd8e80721f",
+      "alt": "The herds",
+      "cap": "The crossing season, which peaks in the weeks either side of September."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1786708949981-2916772e8a59",
+      "alt": "Leopard",
+      "tall": true,
+      "cap": "Walking and night drives are conservancy privileges rather than reserve ones."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1623951578056-5082d34a9859",
+      "alt": "Giraffe",
+      "cap": "Resident game stays on the conservancy year round."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1517846875602-2371528547d4",
+      "alt": "Balloons",
+      "cap": "Balloons lift before dawn and land where the wind decides."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1787508538109-21bfe6b60e1b",
+      "alt": "Zebra in fog",
+      "tall": true,
+      "cap": "Early mornings carry fog across the plain for the first hour."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1535082623926-b39352a03fb7",
+      "alt": "Open plain",
+      "cap": "Six tents on a low ridge, and nothing else within sight of them."
+    }
+  ],
+  "season": {
+    "title": "When to come",
+    "months": [
+      {
+        "m": "Jan",
+        "r": "good"
+      },
+      {
+        "m": "Feb",
+        "r": "good"
+      },
+      {
+        "m": "Mar",
+        "r": "ok"
+      },
+      {
+        "m": "Apr",
+        "r": "ok"
+      },
+      {
+        "m": "May",
+        "r": "ok"
+      },
+      {
+        "m": "Jun",
+        "r": "best"
+      },
+      {
+        "m": "Jul",
+        "r": "best"
+      },
+      {
+        "m": "Aug",
+        "r": "best"
+      },
+      {
+        "m": "Sep",
+        "r": "best"
+      },
+      {
+        "m": "Oct",
+        "r": "best"
+      },
+      {
+        "m": "Nov",
+        "r": "good"
+      },
+      {
+        "m": "Dec",
+        "r": "good"
+      }
+    ],
+    "notes": [
+      {
+        "h": "June to October",
+        "p": "Dry season. Grass short, water scarce, animals concentrated, and the river crossings inside this window."
+      },
+      {
+        "h": "January to February",
+        "p": "Calving on the short-grass plains to the south, which is quieter and in some ways the better spectacle."
+      },
+      {
+        "h": "March to May",
+        "p": "Green, quiet and considerably better value, with superb birdlife and taller grass."
+      }
+    ]
+  }
+}

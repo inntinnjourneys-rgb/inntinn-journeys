@@ -1,0 +1,20 @@
+{
+  "name": "Nepal",
+  "region": "South Asia",
+  "img": "photo-1415045384817-2f9cf7f2ed79",
+  "lede": "Himalayan scale without the altitude of a serious trek, if the route is chosen properly.",
+  "when": "October and November for the clearest mountain views; March and April for rhododendron and warmer valleys.",
+  "stay": [
+    "Himalayan view lodges",
+    "Jungle camps in the Terai",
+    "Restored Kathmandu residences"
+  ],
+  "shape": [
+    "Fly in, walk short, sleep low",
+    "A day of acclimatisation built in before anything demanding",
+    "Helicopter held in reserve for weather"
+  ],
+  "key": "nepal",
+  "lon": 84.096,
+  "lat": 28.292
+}

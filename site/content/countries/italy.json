@@ -1,0 +1,20 @@
+{
+  "name": "Italy",
+  "region": "Europe",
+  "img": "photo-1445019980597-93fa8acb246c",
+  "lede": "The country members return to most, which means the work is in finding what they have not seen.",
+  "when": "April to June and September to October; August is for the mountains, not the cities.",
+  "stay": [
+    "Lakeside and hillside villas",
+    "Coastal estates",
+    "City residences and palazzi"
+  ],
+  "shape": [
+    "A house with staff rather than a hotel, for stays over five nights",
+    "Openings arranged out of hours",
+    "Driver kept for the whole stay"
+  ],
+  "key": "italy",
+  "lon": 12.798,
+  "lat": 42.799
+}

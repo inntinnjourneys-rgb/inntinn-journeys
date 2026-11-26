@@ -1,0 +1,20 @@
+{
+  "name": "Himachal",
+  "region": "The Himalaya",
+  "img": "photo-1415045384817-2f9cf7f2ed79",
+  "lede": "Tea estates, deodar forest and the first real ridge of the Himalaya, four hours from Delhi.",
+  "when": "March to June and September to November; the monsoon closes the high valleys and the winter closes the passes.",
+  "stay": [
+    "Tea-estate bungalows",
+    "Restored colonial houses",
+    "Orchard farmstays"
+  ],
+  "shape": [
+    "One valley, not three",
+    "Walks from the door rather than drives to trailheads",
+    "A cook who shops the local market each morning"
+  ],
+  "key": "himachal",
+  "lon": 77.202,
+  "lat": 32.107
+}

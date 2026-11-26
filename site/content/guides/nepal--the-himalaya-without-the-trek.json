@@ -1,0 +1,71 @@
+{
+  "slug": "the-himalaya-without-the-trek",
+  "country": "Nepal",
+  "countryKey": "nepal",
+  "eyebrow": "Destinations / South Asia / Nepal",
+  "title": "The Himalaya without the trek",
+  "standfirst": "Mountain scale at altitudes the body can handle, if the route is chosen with some care.",
+  "hero": "photo-1415045384817-2f9cf7f2ed79",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "Fly in, walk short, sleep low",
+      "paras": [
+        "Most people assume Nepal means two weeks of walking. It does not have to. The country's best views are reachable by a short flight and a two-hour walk, and the lodges at the end of them are serious.",
+        "<strong>We build the trip around sleeping altitude rather than walking distance</strong>, which keeps the days enjoyable and the nights comfortable."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The valley, then the hills",
+      "image": "photo-1506905925346-21bda4d32df4",
+      "caption": "Mountain lodges reached in a morning rather than a week.",
+      "paras": [
+        "Kathmandu deserves two nights and no more on a first trip. The temple squares are best at six in the morning, before the city wakes.",
+        "<strong>From there a short flight puts you in the hills</strong>, where the lodges are small, the walking is optional and the mountain is in front of you at breakfast."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The Terai, which everyone skips",
+      "image": "photo-1623951578056-5082d34a9859",
+      "caption": "Jungle camps in the lowlands, a short flight south.",
+      "paras": [
+        "The lowland parks hold rhino, elephant and the occasional tiger, and almost nobody building a Nepal itinerary thinks to include them.",
+        "<strong>Three nights in the Terai changes the shape of the trip</strong>, adds warmth after the hills, and breaks the journey before the flight home."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When are the mountains clearest?",
+          "a": [
+            "<strong>October and November</strong>, without question. March and April bring rhododendron and warmer valleys but more haze."
+          ]
+        },
+        {
+          "q": "Do we need to be fit?",
+          "a": [
+            "For the itineraries we build, no. Walks are two to three hours on good paths, and anything harder is optional rather than structural."
+          ]
+        },
+        {
+          "q": "What about weather delays?",
+          "a": [
+            "Mountain flights are weather-dependent and we plan around that. We hold a helicopter option and we never schedule a tight international connection on the day of a mountain flight."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

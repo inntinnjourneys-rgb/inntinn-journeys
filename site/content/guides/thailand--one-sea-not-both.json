@@ -1,0 +1,71 @@
+{
+  "slug": "one-sea-not-both",
+  "country": "Thailand",
+  "countryKey": "thailand",
+  "eyebrow": "Destinations / Southeast Asia / Thailand",
+  "title": "One sea, not both",
+  "standfirst": "The easiest country in the region to travel well, and the easiest to travel badly.",
+  "hero": "photo-1549294413-26f195200c16",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "The two coasts are never in season together",
+      "paras": [
+        "Thailand's Andaman and Gulf coasts run on opposite monsoons. An itinerary that visits both in one trip will be wet on one of them.",
+        "<strong>We pick the sea that suits the month and stay with it</strong>, then use the north for contrast rather than a second beach."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "North for the contrast",
+      "image": "photo-1770185998570-db739db7af47",
+      "caption": "Jungle camps and hill country, a short flight from the coast.",
+      "paras": [
+        "The north is cooler, greener and entirely different in texture from the islands, and most itineraries treat it as an afterthought.",
+        "<strong>Four nights in the hills before the sea</strong> makes the beach feel earned rather than default."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "A boat, not a tour",
+      "image": "photo-1528154291023-a6525fabe5b4",
+      "caption": "A boat held for the stay rather than booked by the day.",
+      "paras": [
+        "The limestone bays are magnificent at seven in the morning and unbearable by eleven, when the day boats arrive.",
+        "<strong>We hold a boat and a skipper for the whole stay</strong>, which buys the early hours and the empty anchorages."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>November to March</strong> for the Andaman side; the Gulf islands run later and hold up well into September."
+          ]
+        },
+        {
+          "q": "Bangkok at the start or the end?",
+          "a": [
+            "The start, always. A city at the end of a beach week undoes the beach week."
+          ]
+        },
+        {
+          "q": "Villa or hotel?",
+          "a": [
+            "For four or more people, a villa with staff is almost always better value and considerably more private than connecting suites."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

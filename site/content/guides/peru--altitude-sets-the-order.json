@@ -1,0 +1,71 @@
+{
+  "slug": "altitude-sets-the-order",
+  "country": "Peru",
+  "countryKey": "peru",
+  "eyebrow": "Destinations / The Americas / Peru",
+  "title": "Altitude sets the order",
+  "standfirst": "Most Peru itineraries get the order wrong and the first three days are spent recovering.",
+  "hero": "photo-1528154291023-a6525fabe5b4",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "Valley before Cusco, always",
+      "paras": [
+        "Cusco sits higher than the Sacred Valley, and arriving straight into it from sea level is the reason so many people lose a day.",
+        "<strong>We send members to the valley first</strong>, give it two nights, and bring them up to the city afterwards."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The sites, privately",
+      "image": "photo-1760261799672-2469a6c4c6f3",
+      "caption": "Private access hours at the major sites.",
+      "paras": [
+        "The headline sites now run timed entry and are busiest in the middle of the day.",
+        "<strong>Early and late slots are bookable in advance</strong> and change the experience completely."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The Amazon as its own week",
+      "image": "photo-1770185998570-db739db7af47",
+      "caption": "The rainforest runs on a different calendar.",
+      "paras": [
+        "The jungle is not an add-on to the highlands. It has its own season, its own pace and its own travel time.",
+        "<strong>We treat it as a separate week</strong> or leave it for another trip rather than bolting on three nights."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>May to September</strong> is dry in the highlands. The Amazon runs differently and is good for much of the year."
+          ]
+        },
+        {
+          "q": "Is the altitude a problem?",
+          "a": [
+            "Manageable if the order is right. We build in the valley first and keep the first day deliberately empty."
+          ]
+        },
+        {
+          "q": "Train or trek?",
+          "a": [
+            "Both work. The expedition trains are genuinely good and suit members who would rather spend the days elsewhere."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "city-mountain-desert",
+  "country": "Morocco",
+  "countryKey": "morocco",
+  "eyebrow": "Destinations / Africa & the Indian Ocean / Morocco",
+  "title": "City, mountain, desert",
+  "standfirst": "Three landscapes within a few hours of each other, which few countries can offer.",
+  "hero": "photo-1551882547-ff40c63fe5fa",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "A riad taken whole",
+      "paras": [
+        "The medina is exhausting as a visitor and delightful as a resident, and the difference is having a house inside it.",
+        "<strong>A riad with its own staff</strong> turns the city from something to get through into the reason for the trip."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The Atlas, not just the desert",
+      "image": "photo-1415045384817-2f9cf7f2ed79",
+      "caption": "Mountain lodges two hours from the city.",
+      "paras": [
+        "Everyone books the desert and almost nobody books the mountains, which are closer, cooler and in some ways better.",
+        "<strong>Three nights in the Atlas</strong> breaks the heat and gives the walking that the desert cannot."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "One night under canvas",
+      "image": "photo-1760261799672-2469a6c4c6f3",
+      "caption": "The desert camps are best at one night, not three.",
+      "paras": [
+        "The dunes are extraordinary for an evening and a sunrise. By the second afternoon most people have had enough sand.",
+        "<strong>We build one night in, not three</strong>, and we put the good bedding and the good cook in it."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>March to May and September to November.</strong> The desert is best in winter; the coast is best in summer."
+          ]
+        },
+        {
+          "q": "Is the medina safe?",
+          "a": [
+            "Yes, and overwhelming. A guide for the first morning makes the rest of the week navigable."
+          ]
+        },
+        {
+          "q": "How long?",
+          "a": [
+            "Eight to ten nights for city, mountain and desert without rushing any of them."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

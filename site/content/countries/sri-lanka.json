@@ -1,0 +1,20 @@
+{
+  "name": "Sri Lanka",
+  "region": "South Asia",
+  "img": "photo-1616207133639-cd5e4db9859f",
+  "lede": "Small enough to cross in a morning, which makes hill, coast and ruin possible in one trip.",
+  "when": "December to March for the west and south coasts; April to September for the east.",
+  "stay": [
+    "Tea-country bungalows",
+    "Coastal and headland villas",
+    "Colonial town houses"
+  ],
+  "shape": [
+    "Hills first, coast last, so the trip ends slowly",
+    "A naturalist for the park days",
+    "Private carriage for the climb to tea country"
+  ],
+  "key": "sri-lanka",
+  "lon": 80.802,
+  "lat": 7.898
+}

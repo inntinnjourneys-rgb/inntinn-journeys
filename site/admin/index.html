@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Inntinn Journeys — Content</title>
+  <link rel="icon" href="/favicon.ico">
+
+  <!-- Tell Decap exactly where the config is, rather than letting it guess. -->
+  <link href="/admin/config.yml" type="text/yaml" rel="cms-config-url">
+
+  <style>
+    html { background: #0B2039; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    #boot { color: #C5D2E2; max-width: 640px; margin: 0 auto; padding: 110px 24px;
+            line-height: 1.75; font-size: 15px; }
+    #boot h1 { font-size: 13px; letter-spacing: .3em; text-transform: uppercase;
+               color: #D4B98A; font-weight: 500; margin: 0 0 18px; }
+    #boot.err h1 { color: #E08B84; }
+    #boot code { background: #15375C; padding: 2px 6px; border-radius: 2px;
+                 font-size: 13px; color: #F5F1EA; }
+    #boot ul { padding-left: 20px; }
+    #boot li { margin-bottom: 10px; }
+  </style>
+
+  <!-- ===================================================================
+       This block MUST come before the script tags below. Their onerror
+       handlers call cmsFailed(), and onerror fires the moment a load
+       fails — which is earlier than any script further down the page.
+       Declaring it afterwards produces "cmsFailed is not defined" and
+       hides the real problem.
+       =================================================================== -->
+  <script>
+    function cmsFailed(msg) {
+      function paint() {
+        var b = document.getElementById('boot');
+        if (!b) return;
+        b.className = 'err';
+        b.innerHTML =
+          '<h1>The editor did not start</h1><p>' + msg + '</p><ul>' +
+          '<li>Are you opening this over <code>http</code> or <code>https</code>, on the deployed site? ' +
+          'A local file, or a preview pane, cannot load the bundle or reach Netlify Identity.</li>' +
+          '<li>Does <code>/admin/config.yml</code> open in a new tab?</li>' +
+          '<li>Does <code>/admin/vendor/decap-cms.js</code> open in a new tab?</li>' +
+          '<li>Is Identity enabled, and Git Gateway switched on, in Netlify?</li>' +
+          '<li>Does <code>branch</code> in config.yml match your default branch?</li>' +
+          '</ul>';
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', paint);
+      } else {
+        paint();
+      }
+    }
+    window.cmsFailed = cmsFailed;
+  </script>
+</head>
+<body>
+
+<div id="boot"><h1>Loading the editor…</h1></div>
+
+<!-- 1. Netlify Identity. Must load before the CMS so Git Gateway sees it. -->
+<script
+  src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+  onerror="window.cmsFailed && cmsFailed('Netlify Identity did not load. On a deployed Netlify site this should always work; check the network tab.')"
+></script>
+
+<!-- 2. Decap CMS, served from this repo so no CDN is in the path.
+     To upgrade: npm pack decap-cms@<version>, unpack, and copy
+     dist/decap-cms.js plus its numbered chunks and the two .wasm files
+     over /admin/vendor. Do not copy the .map files. -->
+<script
+  src="/admin/vendor/decap-cms.js"
+  onerror="window.cmsFailed && cmsFailed('The editor bundle did not load from /admin/vendor/decap-cms.js. Confirm the admin/vendor folder was committed and included in the deploy.')"
+></script>
+
+<script>
+  // Someone arriving from an invitation or recovery email lands here with a
+  // token; send them into the editor once they have set a password.
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on('init', function (user) {
+      if (!user) {
+        window.netlifyIdentity.on('login', function () {
+          document.location.href = '/admin/';
+        });
+      }
+    });
+  }
+
+  // If Decap has not taken the page over, say why rather than going blank.
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      if (typeof window.CMS === 'undefined') {
+        cmsFailed('The bundle loaded but did not initialise. This is usually a problem in config.yml.');
+        return;
+      }
+      var boot = document.getElementById('boot');
+      if (boot && boot.parentNode) boot.parentNode.removeChild(boot);
+    }, 6000);
+  });
+</script>
+
+<!--
+  If you would rather use a CDN than the vendored copy, replace the second
+  script tag above with this. Note the spelling: jsdelivr, no second "e".
+
+  <script src="https://cdn.jsdelivr.net/npm/decap-cms@3.17.3/dist/decap-cms.js"></script>
+-->
+
+</body>
+</html>

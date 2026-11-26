@@ -1,0 +1,20 @@
+{
+  "name": "Maldives",
+  "region": "Africa & the Indian Ocean",
+  "img": "photo-1512100356356-de1b84283e18",
+  "lede": "One island, one house, and a seaplane. Very little else is required.",
+  "when": "November to April is driest; May to October is quieter, greener and better value.",
+  "stay": [
+    "Private islands",
+    "Overwater and beach residences",
+    "Live-aboard charters"
+  ],
+  "shape": [
+    "A whole island where the group is large enough",
+    "Seaplane timings set so no day is lost in transfer",
+    "A dive guide held for the stay"
+  ],
+  "key": "maldives",
+  "lon": 73.206,
+  "lat": 3.2
+}

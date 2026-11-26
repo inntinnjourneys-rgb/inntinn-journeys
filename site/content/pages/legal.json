@@ -1,0 +1,19 @@
+{
+  "documents": [
+    {
+      "title": "Privacy",
+      "slug": "privacy",
+      "body": "Replace with your privacy notice."
+    },
+    {
+      "title": "Booking Conditions",
+      "slug": "booking-conditions",
+      "body": "Replace with your booking conditions."
+    },
+    {
+      "title": "Terms & Conditions",
+      "slug": "terms",
+      "body": "Replace with your terms."
+    }
+  ]
+}

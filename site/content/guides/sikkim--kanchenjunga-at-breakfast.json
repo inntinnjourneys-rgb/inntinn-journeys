@@ -1,0 +1,71 @@
+{
+  "slug": "kanchenjunga-at-breakfast",
+  "country": "Sikkim",
+  "countryKey": "sikkim",
+  "eyebrow": "Destinations / The Himalaya / Sikkim",
+  "title": "Kanchenjunga at breakfast",
+  "standfirst": "A border culture unlike anywhere else in India, with the third-highest mountain in the world above it.",
+  "hero": "photo-1777994404844-a7da5d98a58d",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "The mountain hides by noon",
+      "paras": [
+        "Kanchenjunga is clear at dawn and gone by late morning for most of the year.",
+        "<strong>Every house we use is chosen for its aspect</strong>, and the mornings are held for the mountain rather than for driving."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "North Sikkim, with time",
+      "image": "photo-1415045384817-2f9cf7f2ed79",
+      "caption": "Permits and long drives; worth it with the days to spare.",
+      "paras": [
+        "The north is the most remarkable part of the state and the hardest to reach, with permits and long mountain roads.",
+        "<strong>We only suggest it when there are days to spare</strong>, and we arrange the permits well ahead."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Monasteries and weaving",
+      "image": "photo-1623951578056-5082d34a9859",
+      "caption": "A culture that sits between Tibet, Nepal and Bengal.",
+      "paras": [
+        "The monasteries here are working rather than visited, and the weaving traditions are still domestic.",
+        "<strong>Visits are arranged rather than turned up to</strong>, which is the difference between watching and being shown."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>March to May</strong> for rhododendron; <strong>October and November</strong> for the clearest mountain views."
+          ]
+        },
+        {
+          "q": "How do we get there?",
+          "a": [
+            "Fly to Bagdogra and drive up, or take the helicopter when weather allows. The drive is four to five hours."
+          ]
+        },
+        {
+          "q": "Do we need permits?",
+          "a": [
+            "For the north and for several border areas, yes. They take time and we handle them in advance."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

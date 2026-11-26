@@ -1,0 +1,20 @@
+{
+  "name": "Vietnam",
+  "region": "Southeast Asia",
+  "img": "photo-1777994404844-a7da5d98a58d",
+  "lede": "A long, narrow country with three climates at once, which makes timing the whole trick.",
+  "when": "North from October to April, centre from February to May, south from December to April.",
+  "stay": [
+    "Bay and island residences",
+    "Highland retreats",
+    "Restored merchant houses"
+  ],
+  "shape": [
+    "Two regions at most, joined by a short flight",
+    "Private boat on the bays rather than a scheduled cruise",
+    "Early starts for the markets, late starts for everything else"
+  ],
+  "key": "vietnam",
+  "lon": 107.802,
+  "lat": 15.998
+}

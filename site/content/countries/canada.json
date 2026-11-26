@@ -1,0 +1,20 @@
+{
+  "name": "Canada",
+  "region": "The Americas",
+  "img": "photo-1506905925346-21bda4d32df4",
+  "lede": "Distance is the thing to design around; flying between regions is not optional.",
+  "when": "June to September for the Rockies and coast; January to March for powder and northern lights.",
+  "stay": [
+    "Wilderness lodges",
+    "Heli-access cabins",
+    "Coastal and island retreats"
+  ],
+  "shape": [
+    "One region per week, flown between",
+    "Heli or float plane for the last leg in",
+    "Guides booked by season, a year ahead"
+  ],
+  "key": "canada",
+  "lon": -106.308,
+  "lat": 56.101
+}

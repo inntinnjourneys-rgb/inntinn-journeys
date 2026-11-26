@@ -1,0 +1,26 @@
+{
+  "deskName": "New Delhi",
+  "address": "[YOUR REGISTERED ADDRESS]\nNew Delhi, India",
+  "phone": "[YOUR TELEPHONE]",
+  "email": "[YOUR EMAIL]",
+  "whatsapp": "[YOUR WHATSAPP]",
+  "social": [
+    {
+      "network": "instagram",
+      "url": "#"
+    },
+    {
+      "network": "linkedin",
+      "url": "#"
+    }
+  ],
+  "badges": [
+    {
+      "label": "[LICENCE]"
+    },
+    {
+      "label": "[AFFILIATION]"
+    }
+  ],
+  "applyNote": "Invitations are extended by introduction and by request. We read every request ourselves and reply within two working days."
+}

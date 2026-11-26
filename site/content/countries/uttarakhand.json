@@ -1,0 +1,20 @@
+{
+  "name": "Uttarakhand",
+  "region": "The Himalaya",
+  "img": "photo-1506905925346-21bda4d32df4",
+  "lede": "The quietest way into the high Himalaya, and the easiest to pair with the Ganges plain.",
+  "when": "April to June and September to November. The high meadows open briefly in summer.",
+  "stay": [
+    "Forest and river retreats",
+    "Wellness and yoga estates",
+    "Village house stays"
+  ],
+  "shape": [
+    "River days early, ridge walks late",
+    "A naturalist for the bird and leopard country",
+    "Rishikesh at the start, never at the end"
+  ],
+  "key": "uttarakhand",
+  "lon": 79.2,
+  "lat": 30.092
+}

@@ -1,0 +1,20 @@
+{
+  "name": "France",
+  "region": "Europe",
+  "img": "photo-1778694276945-a3ee92331709",
+  "lede": "Best approached by region and by table, rather than by itinerary.",
+  "when": "May to October for the countryside and coast; December to March for the Alps.",
+  "stay": [
+    "Chateaux and private estates",
+    "Vineyard houses",
+    "Alpine chalets with staff"
+  ],
+  "shape": [
+    "Cellar visits booked long before the trip",
+    "A single region, driven slowly",
+    "Markets as the fixed points of the week"
+  ],
+  "key": "france",
+  "lon": 2.394,
+  "lat": 46.597
+}

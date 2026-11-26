@@ -1,0 +1,71 @@
+{
+  "slug": "one-valley-properly",
+  "country": "Himachal",
+  "countryKey": "himachal",
+  "eyebrow": "Destinations / The Himalaya / Himachal",
+  "title": "One valley, properly",
+  "standfirst": "Four hours from Delhi and a world away, provided you stay in one valley rather than touring three.",
+  "hero": "photo-1415045384817-2f9cf7f2ed79",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "Walks from the door",
+      "paras": [
+        "Himachal's valleys are close together on a map and separated by long, winding drives in practice.",
+        "<strong>We put members in one valley for the week</strong>, in a house with walks from the door rather than drives to trailheads."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Tea and deodar",
+      "image": "photo-1506905925346-21bda4d32df4",
+      "caption": "Tea-estate bungalows below the first ridge.",
+      "paras": [
+        "The tea country below Dharamshala is quieter than the hill stations and the bungalows are old, large and privately run.",
+        "<strong>They take one party at a time</strong>, with a cook who shops the local market each morning."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The ridge above",
+      "image": "photo-1771790058742-c1ad2ecf9b6b",
+      "caption": "The snow line is a morning's walk, not an expedition.",
+      "paras": [
+        "The first real Himalayan ridge is a few hours above the valley floor and needs no technical skill at all.",
+        "<strong>A guide and an early start</strong> is the whole requirement, and the view at the top is the one people fly to Nepal for."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>March to June and September to November.</strong> The monsoon closes the high valleys and winter closes the passes."
+          ]
+        },
+        {
+          "q": "How do we get there?",
+          "a": [
+            "Fly to the valley airstrip where weather allows, or drive from Delhi. We hold both and decide the day before."
+          ]
+        },
+        {
+          "q": "How long?",
+          "a": [
+            "Five to seven nights in one valley. Longer if a second valley is genuinely wanted."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

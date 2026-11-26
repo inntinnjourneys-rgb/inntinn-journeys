@@ -1,0 +1,71 @@
+{
+  "slug": "design-around-the-distance",
+  "country": "Canada",
+  "countryKey": "canada",
+  "eyebrow": "Destinations / The Americas / Canada",
+  "title": "Design around the distance",
+  "standfirst": "Flying between regions is not optional here; the country is too large for anything else.",
+  "hero": "photo-1506905925346-21bda4d32df4",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "One region per week",
+      "paras": [
+        "The temptation is to link the Rockies and the coast by road. The drive is magnificent and it costs three days.",
+        "<strong>We fly between regions and drive within them</strong>, which buys back most of a week on a fortnight's trip."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The last leg by air",
+      "image": "photo-1523496922380-91d5afba98a3",
+      "caption": "Float plane or helicopter into the lodges.",
+      "paras": [
+        "The wilderness lodges worth reaching are not on a road, and that is the point of them.",
+        "<strong>The final leg is a float plane or a helicopter</strong>, booked with the lodge rather than separately."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Winter is a different country",
+      "image": "photo-1415045384817-2f9cf7f2ed79",
+      "caption": "January to March for powder and northern light.",
+      "paras": [
+        "The same regions in winter are quieter, emptier and in some ways better, and almost nobody asks for them.",
+        "<strong>Guides and cat-skiing book a year ahead</strong>, so winter is planned in the spring before."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>June to September</strong> for the Rockies and the coast; <strong>January to March</strong> for powder and the northern lights."
+          ]
+        },
+        {
+          "q": "How long?",
+          "a": [
+            "Fourteen nights for two regions. Ten is possible for one."
+          ]
+        },
+        {
+          "q": "Is it good for families?",
+          "a": [
+            "Among the best. The lodges are set up for it and the distances within a region are manageable."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

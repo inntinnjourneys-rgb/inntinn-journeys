@@ -1,0 +1,21 @@
+{
+  "name": "India",
+  "region": "South Asia",
+  "img": "photo-1760261799672-2469a6c4c6f3",
+  "lede": "A country best taken slowly, one or two states at a time, rather than as a circuit.",
+  "when": "October to March across most of the country; the hill stations and Ladakh reverse that and open from April to September.",
+  "stay": [
+    "Private villas and farmhouses",
+    "Heritage palaces and havelis",
+    "Wildlife lodges in the tiger parks",
+    "Backwater and coastal retreats"
+  ],
+  "shape": [
+    "One base per week, with day journeys out rather than daily packing",
+    "A fixer and driver who knows the state, not the country",
+    "Mornings reserved; afternoons left open"
+  ],
+  "key": "india",
+  "lon": 78.894,
+  "lat": 21.992
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "three-climates-one-country",
+  "country": "Vietnam",
+  "countryKey": "vietnam",
+  "eyebrow": "Destinations / Southeast Asia / Vietnam",
+  "title": "Three climates, one country",
+  "standfirst": "A long, narrow country with three weather systems running at once, which makes timing the whole trick.",
+  "hero": "photo-1777994404844-a7da5d98a58d",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "Two regions, joined by a short flight",
+      "paras": [
+        "North, centre and south are each on their own calendar, and no month is good for all three at once.",
+        "<strong>We plan two regions and accept that the third waits for another trip.</strong> Members who insist on the full length usually spend a third of it in airports."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The bays, privately",
+      "image": "photo-1528154291023-a6525fabe5b4",
+      "caption": "A private boat rather than a scheduled cruise.",
+      "paras": [
+        "The famous bays are worth the reputation and the scheduled boats are not. Cabins are small, routes are fixed and the anchorages are shared.",
+        "<strong>A private junk for two nights costs less than people expect</strong>, and it goes where the fleet does not."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Food as the itinerary",
+      "image": "photo-1778694276945-a3ee92331709",
+      "caption": "Markets at dawn, which is when they are worth seeing.",
+      "paras": [
+        "Vietnam is one of the few countries where planning the days around eating is a serious strategy rather than an indulgence.",
+        "<strong>We build mornings around markets and evenings around a handful of tables</strong> that need booking weeks ahead."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "North <strong>October to April</strong>, centre <strong>February to May</strong>, south <strong>December to April</strong>. Pick two that overlap."
+          ]
+        },
+        {
+          "q": "How much time?",
+          "a": [
+            "Ten nights for two regions. Fourteen if a beach is wanted at the end."
+          ]
+        },
+        {
+          "q": "Is it easy with children?",
+          "a": [
+            "Yes, with short flights between regions rather than long drives, and with the food handled rather than left to chance."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

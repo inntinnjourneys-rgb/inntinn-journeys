@@ -1,0 +1,71 @@
+{
+  "slug": "river-forest-ridge",
+  "country": "Uttarakhand",
+  "countryKey": "uttarakhand",
+  "eyebrow": "Destinations / The Himalaya / Uttarakhand",
+  "title": "River, forest, ridge",
+  "standfirst": "The quietest way into the high Himalaya, and the easiest to pair with the plain.",
+  "hero": "photo-1506905925346-21bda4d32df4",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "Rishikesh at the start, never at the end",
+      "paras": [
+        "The river town is busy, bright and worth two nights, and it is the wrong note to end a week on.",
+        "<strong>We start there and move upstream</strong>, into forest and then into the ridges, so the trip gets quieter as it goes."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Leopard and bird country",
+      "image": "photo-1786708949981-2916772e8a59",
+      "caption": "A naturalist for the forest days.",
+      "paras": [
+        "The forests here hold leopard, bear and some of the best birding in northern India, and almost all of it is missed without a naturalist.",
+        "<strong>We keep the same one across the stay</strong>, which matters more here than in the big parks."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The high meadows",
+      "image": "photo-1771790058742-c1ad2ecf9b6b",
+      "caption": "Open for a few weeks in summer, and then gone.",
+      "paras": [
+        "The alpine meadows above the treeline flower for a short window and are genuinely spectacular.",
+        "<strong>The window is narrow and weather-dependent</strong>, so we set those dates first and build the rest around them."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>April to June and September to November.</strong> The high meadows open briefly in summer."
+          ]
+        },
+        {
+          "q": "Is it suitable for a first Himalayan trip?",
+          "a": [
+            "Yes. Altitudes are moderate, roads are reasonable and nothing is physically demanding unless chosen."
+          ]
+        },
+        {
+          "q": "Can it be combined?",
+          "a": [
+            "Easily, with Delhi or with a tiger park on the same side of the country."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

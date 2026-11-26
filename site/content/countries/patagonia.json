@@ -1,0 +1,20 @@
+{
+  "name": "Patagonia",
+  "region": "The Americas",
+  "img": "photo-1770185998570-db739db7af47",
+  "lede": "Weather is the itinerary here; everything else is arranged around it.",
+  "when": "November to March. December and January give the longest days and the strongest wind.",
+  "stay": [
+    "Estancias",
+    "Expedition lodges",
+    "Private wilderness camps"
+  ],
+  "shape": [
+    "Plans held loose and decided each morning",
+    "A guide who reads the forecast, not the schedule",
+    "Chile and Argentina together, border crossing arranged ahead"
+  ],
+  "key": "patagonia",
+  "lon": -72,
+  "lat": -48.008
+}

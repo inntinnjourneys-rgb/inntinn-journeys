@@ -1,0 +1,20 @@
+{
+  "name": "Morocco",
+  "region": "Africa & the Indian Ocean",
+  "img": "photo-1551882547-ff40c63fe5fa",
+  "lede": "City, mountain and desert within a few hours of each other, which few countries can offer.",
+  "when": "March to May and September to November; the desert is best in winter, the coast in summer.",
+  "stay": [
+    "Riads taken whole",
+    "Desert camps",
+    "Atlas mountain lodges"
+  ],
+  "shape": [
+    "A riad with its own staff rather than a hotel",
+    "Medina walked early, before it fills",
+    "One night under canvas, not three"
+  ],
+  "key": "morocco",
+  "lon": -7.092,
+  "lat": 31.801
+}

@@ -1,0 +1,6 @@
+# Duplicated from netlify.toml so the rules survive if the toml is replaced.
+# Order matters: the catch-all must come last.
+/admin           /admin/            301
+/admin/*         /admin/:splat      200
+/content/*       /content/:splat    200
+/*               /index.html        200

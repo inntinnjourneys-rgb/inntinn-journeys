@@ -1,0 +1,20 @@
+{
+  "name": "Scotland",
+  "region": "Europe",
+  "img": "photo-1523496922380-91d5afba98a3",
+  "lede": "Where the word Inntinn comes from, and a country that rewards weather rather than fighting it.",
+  "when": "May to September for the islands and the light; October for stalking and colour.",
+  "stay": [
+    "Highland sporting estates",
+    "Island houses",
+    "Castle buyouts"
+  ],
+  "shape": [
+    "An estate taken whole, for family and friends",
+    "Boat days held loosely against the forecast",
+    "Ghillie, stalker and chef arranged in advance"
+  ],
+  "key": "scotland",
+  "lon": -4.194,
+  "lat": 56.803
+}

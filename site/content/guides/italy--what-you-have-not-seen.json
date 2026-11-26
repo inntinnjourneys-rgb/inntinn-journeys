@@ -1,0 +1,71 @@
+{
+  "slug": "what-you-have-not-seen",
+  "country": "Italy",
+  "countryKey": "italy",
+  "eyebrow": "Destinations / Europe / Italy",
+  "title": "What you have not seen",
+  "standfirst": "The country members return to most, which means the work is in finding what is left.",
+  "hero": "photo-1445019980597-93fa8acb246c",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "A house, a driver, one region",
+      "paras": [
+        "Most members arriving in Italy have already done the cities. What they have not usually done is stay still in one region for ten days with a house and a cook.",
+        "<strong>We plan Italy by valley and by table</strong>, not by itinerary, and we keep the driver for the whole stay rather than by the day."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Out-of-hours access",
+      "image": "photo-1630587148265-761cbd139043",
+      "caption": "Galleries and chapels before or after public hours.",
+      "paras": [
+        "Almost every significant collection in Italy can be opened privately outside public hours, for a fee and with enough notice.",
+        "<strong>We arrange these months ahead</strong>, which is the difference between seeing a fresco and queueing for one."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The table is the point",
+      "image": "photo-1778694276945-a3ee92331709",
+      "caption": "A long lunch, booked long before arrival.",
+      "paras": [
+        "The restaurants worth travelling for take bookings weeks out and do not answer email in August.",
+        "<strong>We hold the tables before the house is confirmed</strong>, because the tables are harder to get."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>April to June and September to October.</strong> August belongs to the mountains, not the cities or the coast."
+          ]
+        },
+        {
+          "q": "House or hotel?",
+          "a": [
+            "Over five nights, a house with staff, every time. Under five, a hotel is simpler and the difference is small."
+          ]
+        },
+        {
+          "q": "Do we need a driver?",
+          "a": [
+            "In the countryside, yes. Parking in the hill towns is the single most tiring part of an Italian holiday."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

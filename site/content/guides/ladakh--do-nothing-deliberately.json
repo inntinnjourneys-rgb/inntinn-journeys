@@ -1,0 +1,71 @@
+{
+  "slug": "do-nothing-deliberately",
+  "country": "Ladakh",
+  "countryKey": "ladakh",
+  "eyebrow": "Destinations / The Himalaya / Ladakh",
+  "title": "Do nothing, deliberately",
+  "standfirst": "High desert at three and a half thousand metres, where the first two days are spent doing nothing on purpose.",
+  "hero": "photo-1760261799672-2469a6c4c6f3",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "Two nights before anything",
+      "paras": [
+        "Leh sits at an altitude where arriving and sightseeing on the same day makes people genuinely unwell.",
+        "<strong>Two nights doing very little</strong> is not lost time; it is what makes the following week possible."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The Indus valley",
+      "image": "photo-1415045384817-2f9cf7f2ed79",
+      "caption": "Monastic houses and private estates along the river.",
+      "paras": [
+        "The monasteries along the Indus are the reason most people come, and they are best at the hours when the light is low.",
+        "<strong>We time the valley by light rather than by distance</strong>, which means fewer sites and better ones."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Beyond the passes",
+      "image": "photo-1771790058742-c1ad2ecf9b6b",
+      "caption": "The high lakes and the Nubra, when the roads allow.",
+      "paras": [
+        "The passes north and east open briefly and the high lakes are at altitudes where sleeping needs care.",
+        "<strong>We go up for the day and come down to sleep</strong> wherever the itinerary allows it."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>June to September.</strong> Roads over the passes close for much of the rest of the year."
+          ]
+        },
+        {
+          "q": "Is the altitude dangerous?",
+          "a": [
+            "It needs respect rather than fear. We build the acclimatisation in, check daily and adjust the plan rather than the person."
+          ]
+        },
+        {
+          "q": "What about permits?",
+          "a": [
+            "Inner-line permits are required for several areas and take time. We arrange them before dates are fixed."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+# =====================================================================
+# netlify.toml — Inntinn Journeys
+# Static site. There is no build step: Netlify serves this folder as is.
+# =====================================================================
+
+[build]
+  publish = "."
+  command = ""
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# ---------------------------------------------------------------------
+# Headers
+# ---------------------------------------------------------------------
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+
+# Content must never be cached hard, or editors will publish and see nothing.
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Uploads are content-addressed by the CMS, so they can be cached hard.
+[[headers]]
+  for = "/assets/uploads/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/brand/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+# The vendored editor bundle is version-pinned by its folder, so cache it.
+[[headers]]
+  for = "/admin/vendor/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# The editor is never indexed and never framed by anyone else.
+[[headers]]
+  for = "/admin/index.html"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    Cache-Control = "no-store"
+
+[[headers]]
+  for = "/admin/config.yml"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    Cache-Control = "no-store"
+
+# ---------------------------------------------------------------------
+# Redirects
+# ---------------------------------------------------------------------
+# Trailing slash on the editor, so /admin works as well as /admin/
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301
+
+# Friendly URLs that land on the single page. The hash takes it from there.
+[[redirects]]
+  from = "/destinations"
+  to = "/#journeys"
+  status = 302
+
+[[redirects]]
+  from = "/membership"
+  to = "/#membership"
+  status = 302
+
+# The editor and the content are real files and must never be rewritten.
+# Netlify serves existing files first, but these are explicit so a future
+# edit to the catch-all cannot break the CMS by accident.
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/content/*"
+  to = "/content/:splat"
+  status = 200
+
+# Anything unmatched falls back to the page rather than a 404 chrome screen.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

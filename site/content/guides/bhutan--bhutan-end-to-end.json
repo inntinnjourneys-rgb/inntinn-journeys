@@ -1,0 +1,71 @@
+{
+  "slug": "bhutan-end-to-end",
+  "country": "Bhutan",
+  "countryKey": "bhutan",
+  "eyebrow": "Destinations / South Asia / Bhutan",
+  "title": "Bhutan, end to end",
+  "standfirst": "A country that limits its own visitors, which is exactly why it repays the time.",
+  "hero": "photo-1506905925346-21bda4d32df4",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "West to east, if there is time",
+      "paras": [
+        "Almost every Bhutan itinerary covers Paro, Thimphu and Punakha and stops. Those three valleys are lovely and they are also where everyone else is.",
+        "<strong>East of Trongsa the country changes</strong>: fewer visitors, older weaving traditions, longer drives. A member with twelve nights can reach it by road and fly back from the east."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Festivals set the calendar",
+      "image": "photo-1777994404844-a7da5d98a58d",
+      "caption": "Valley festivals fix the dates; the rest follows.",
+      "paras": [
+        "The tsechu festivals move with the lunar calendar and fill the good rooms in a valley within days of being announced.",
+        "<strong>We check festival dates before anything else</strong>, then build the route around them rather than hoping to catch one in passing."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Walking, not trekking",
+      "image": "photo-1415045384817-2f9cf7f2ed79",
+      "caption": "Short daily walks rather than one long effort.",
+      "paras": [
+        "The climb to Taktsang is the famous one and it is genuinely steep. Everything else can be as gentle as a member wants.",
+        "<strong>We prefer a short walk every day to one heroic day</strong>, which keeps the legs willing and leaves the afternoons free."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>March to May and September to November.</strong> The valleys are clearest either side of the monsoon, and those windows carry most of the festivals."
+          ]
+        },
+        {
+          "q": "Is it expensive?",
+          "a": [
+            "Bhutan sets a daily levy per visitor in addition to the cost of travel, which is deliberate policy rather than a markup. It is the reason the valleys are not crowded."
+          ]
+        },
+        {
+          "q": "How long do we need?",
+          "a": [
+            "Seven nights for the western valleys. Twelve or more if you want to cross to the east, which we would encourage if the time exists."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

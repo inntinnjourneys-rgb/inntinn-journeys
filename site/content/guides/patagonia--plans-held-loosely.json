@@ -1,0 +1,71 @@
+{
+  "slug": "plans-held-loosely",
+  "country": "Patagonia",
+  "countryKey": "patagonia",
+  "eyebrow": "Destinations / The Americas / Patagonia",
+  "title": "Plans held loosely",
+  "standfirst": "Weather is the itinerary here; everything else is arranged around it.",
+  "hero": "photo-1770185998570-db739db7af47",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "Decide each morning",
+      "paras": [
+        "Patagonian weather changes hourly and any itinerary written in advance will be wrong by the second day.",
+        "<strong>We plan capacity rather than schedule</strong>: the guide, the vehicle and the permits are held, and the day is chosen at breakfast."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Both sides of the border",
+      "image": "photo-1771790058742-c1ad2ecf9b6b",
+      "caption": "Chile and Argentina together, crossing arranged ahead.",
+      "paras": [
+        "The two countries hold different halves of the same landscape and most itineraries pick one for administrative convenience.",
+        "<strong>The crossing is straightforward with notice</strong> and doubles what a member sees in the same fortnight."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Estancias",
+      "image": "photo-1445019980597-93fa8acb246c",
+      "caption": "Working estancias rather than lodges.",
+      "paras": [
+        "The sheep stations that take guests are a different experience from the expedition lodges, and considerably quieter.",
+        "<strong>We pair one of each</strong>: the lodge for the walking, the estancia for the horses and the rest."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>November to March.</strong> December and January give the longest days and the strongest wind."
+          ]
+        },
+        {
+          "q": "How fit do we need to be?",
+          "a": [
+            "As fit as you like. The landscape is as rewarding from a vehicle and a short walk as from a full day on the trail."
+          ]
+        },
+        {
+          "q": "How long?",
+          "a": [
+            "Ten nights minimum. The distances are long and a short trip is mostly travel."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

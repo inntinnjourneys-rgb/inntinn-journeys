@@ -1,0 +1,20 @@
+{
+  "name": "Sikkim",
+  "region": "The Himalaya",
+  "img": "photo-1777994404844-a7da5d98a58d",
+  "lede": "Kanchenjunga from the breakfast table, and a border culture unlike anywhere else in India.",
+  "when": "March to May for rhododendron, October and November for the clearest mountain views.",
+  "stay": [
+    "Valley lodges",
+    "Heritage houses",
+    "Monastery stays"
+  ],
+  "shape": [
+    "Permits arranged well in advance",
+    "North Sikkim only with time in hand",
+    "Mornings held for the mountain, which hides by noon"
+  ],
+  "key": "sikkim",
+  "lon": 88.506,
+  "lat": 27.5
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "one-island-one-house",
+  "country": "Maldives",
+  "countryKey": "maldives",
+  "eyebrow": "Destinations / Africa & the Indian Ocean / Maldives",
+  "title": "One island, one house",
+  "standfirst": "A seaplane, a house and very little else is required.",
+  "hero": "photo-1512100356356-de1b84283e18",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "The transfer is half the decision",
+      "paras": [
+        "Everything in the Maldives turns on the transfer. A badly timed seaplane costs a day at each end of the trip.",
+        "<strong>We set the seaplane window first</strong> and choose the island to fit it, rather than the other way round."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Whole islands",
+      "image": "photo-1561501900-3701fa6a0864",
+      "caption": "A private island, for a family or a group of friends.",
+      "paras": [
+        "For eight or more people, taking a small island whole is frequently cheaper than the equivalent villas on a larger one.",
+        "<strong>It also removes the only real drawback of the Maldives</strong>, which is being on an island with other people's holidays."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Under the water",
+      "image": "photo-1523496922380-91d5afba98a3",
+      "caption": "A dive guide held for the stay rather than by the day.",
+      "paras": [
+        "The reefs vary enormously between atolls and the manta and whale shark seasons move with the monsoon.",
+        "<strong>We match the atoll to what a member wants to see</strong>, and hold the same guide for the whole stay."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>November to April</strong> is driest. May to October is quieter, greener and better value, with better odds on mantas."
+          ]
+        },
+        {
+          "q": "Is it only for couples?",
+          "a": [
+            "No. Several islands are genuinely good for families, and a whole-island booking suits a multi-generational group better than anywhere else we work."
+          ]
+        },
+        {
+          "q": "How long?",
+          "a": [
+            "Seven nights. Fewer and the transfers eat the trip; more and most people want a second element."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

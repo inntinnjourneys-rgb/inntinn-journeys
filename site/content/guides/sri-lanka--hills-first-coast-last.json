@@ -1,0 +1,71 @@
+{
+  "slug": "hills-first-coast-last",
+  "country": "Sri Lanka",
+  "countryKey": "sri-lanka",
+  "eyebrow": "Destinations / South Asia / Sri Lanka",
+  "title": "Hills first, coast last",
+  "standfirst": "A country small enough to cross in a morning, which makes the order of things the whole decision.",
+  "hero": "photo-1616207133639-cd5e4db9859f",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "Ruins, tea, then the sea",
+      "paras": [
+        "Sri Lanka's three landscapes sit within a few hours of each other, and the common error is doing them in the wrong order and ending the trip tired.",
+        "<strong>We send members to the cultural triangle first, the tea country second and the coast last</strong>, so the trip slows down rather than speeds up."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Tea country, by train",
+      "image": "photo-1415045384817-2f9cf7f2ed79",
+      "caption": "The climb into the hills is better from a private carriage.",
+      "paras": [
+        "The hill railway is one of the loveliest journeys in Asia and also one of the most crowded.",
+        "<strong>A private carriage changes it entirely</strong>, and the bungalows at the top are old planters' houses with their own staff and almost no other guests."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Which coast, and when",
+      "image": "photo-1549294413-26f195200c16",
+      "caption": "The two coasts run on opposite seasons.",
+      "paras": [
+        "The south and west work from December to March; the east from April to September. Getting this wrong is the single most common Sri Lanka mistake.",
+        "<strong>We set the coast before the rest of the route</strong>, because everything else in the country travels well in either season."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "How long is enough?",
+          "a": [
+            "Ten to twelve nights covers all three landscapes without hurrying. Under a week, we would pick two of the three."
+          ]
+        },
+        {
+          "q": "Is it good for families?",
+          "a": [
+            "Very. Distances are short, the food is gentle, and the wildlife parks are close enough to visit without a dawn flight."
+          ]
+        },
+        {
+          "q": "Can we see leopards?",
+          "a": [
+            "Yes, and the odds are among the best anywhere, but it needs an early start, the right block of the park and a tracker who works it daily."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

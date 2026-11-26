@@ -1,0 +1,20 @@
+{
+  "name": "Thailand",
+  "region": "Southeast Asia",
+  "img": "photo-1549294413-26f195200c16",
+  "lede": "The easiest country in the region to travel well, and the easiest to travel badly.",
+  "when": "November to March; the islands split between two coasts, so the season depends on which sea.",
+  "stay": [
+    "Island and headland villas",
+    "Jungle tented camps",
+    "River and city residences"
+  ],
+  "shape": [
+    "One sea, not both, in a single trip",
+    "A chef and a boat held for the stay",
+    "City at the start, never at the end"
+  ],
+  "key": "thailand",
+  "lon": 100.998,
+  "lat": 15.008
+}

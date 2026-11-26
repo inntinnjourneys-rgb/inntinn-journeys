@@ -1,0 +1,4 @@
+# The vendored editor bundle is build output, not source. Keep it out of
+# diffs and language statistics so the repo reads correctly.
+admin/vendor/** linguist-vendored
+admin/vendor/** -diff

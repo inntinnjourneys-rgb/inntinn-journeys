@@ -1,0 +1,20 @@
+{
+  "name": "Ladakh",
+  "region": "The Himalaya",
+  "img": "photo-1760261799672-2469a6c4c6f3",
+  "lede": "High desert at three and a half thousand metres, where the first two days are spent doing nothing on purpose.",
+  "when": "June to September. Roads over the passes close for much of the rest of the year.",
+  "stay": [
+    "High-desert camps",
+    "Converted monastic houses",
+    "Private estates in the Indus valley"
+  ],
+  "shape": [
+    "Two nights in Leh before anything is attempted",
+    "Altitude checked daily, plans adjusted accordingly",
+    "Festival dates set before flights"
+  ],
+  "key": "ladakh",
+  "lon": 77.598,
+  "lat": 34.195
+}

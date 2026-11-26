@@ -1,0 +1,71 @@
+{
+  "slug": "by-region-and-by-table",
+  "country": "France",
+  "countryKey": "france",
+  "eyebrow": "Destinations / Europe / France",
+  "title": "By region and by table",
+  "standfirst": "France rewards depth in one region and punishes the grand tour.",
+  "hero": "photo-1778694276945-a3ee92331709",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "Cellars, markets and one base",
+      "paras": [
+        "The French countryside is a sequence of small regions that each take a week to understand and twenty minutes to drive across.",
+        "<strong>We choose one</strong>, put members in a house inside it, and build the week around the market days and two or three cellar visits."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The cellars worth the detour",
+      "image": "photo-1621293954908-907159247fc8",
+      "caption": "Visits arranged with the makers, not the shops.",
+      "paras": [
+        "The estates worth visiting do not take walk-ins and frequently do not have a tasting room at all.",
+        "<strong>Introductions are made months ahead</strong>, and the visits are with the person who makes the wine rather than with a guide."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Alps in winter",
+      "image": "photo-1445019980597-93fa8acb246c",
+      "caption": "Chalets with their own staff rather than hotel suites.",
+      "paras": [
+        "The French Alps in January are a different proposition entirely, and the good chalets go a year ahead.",
+        "<strong>We book winter in spring</strong>, which is the only way to get the ones with the right aspect and a proper kitchen."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>May to October</strong> for the countryside and coast; <strong>December to March</strong> for the Alps."
+          ]
+        },
+        {
+          "q": "Paris at the start or the end?",
+          "a": [
+            "The start. It is the easiest arrival and the countryside is the better ending."
+          ]
+        },
+        {
+          "q": "Is the driving hard?",
+          "a": [
+            "No, and we recommend members drive themselves in the countryside. A driver matters in the cities and on the arrival day."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

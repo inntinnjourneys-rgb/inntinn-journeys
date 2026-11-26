@@ -1,0 +1,71 @@
+{
+  "slug": "weather-as-the-itinerary",
+  "country": "Scotland",
+  "countryKey": "scotland",
+  "eyebrow": "Destinations / Europe / Scotland",
+  "title": "Weather as the itinerary",
+  "standfirst": "Where the word Inntinn comes from, and a country that rewards working with the forecast rather than against it.",
+  "hero": "photo-1523496922380-91d5afba98a3",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "An estate, taken whole",
+      "paras": [
+        "Scotland is at its best when a group has the run of a place and no fixed plan for the week.",
+        "<strong>A sporting estate taken whole</strong> gives a family the house, the staff, the water and the hill, and lets each morning decide what the day is."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The islands, by boat",
+      "image": "photo-1528154291023-a6525fabe5b4",
+      "caption": "Island days held loosely against the forecast.",
+      "paras": [
+        "The Hebrides are a different country again, and the crossings are entirely at the weather's discretion.",
+        "<strong>We hold boat days as options rather than fixtures</strong>, and we keep a second plan for every one of them."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Stalking, fishing, and the ghillie",
+      "image": "photo-1771790058742-c1ad2ecf9b6b",
+      "caption": "The ghillie makes the week, not the house.",
+      "paras": [
+        "On any estate the person who determines the quality of the week is the ghillie or the stalker, not the architecture.",
+        "<strong>We book the people before the property</strong>, and we say so when an estate's are not up to standard."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>May to September</strong> for the islands and the light. October for stalking and for the colour."
+          ]
+        },
+        {
+          "q": "What about the midges?",
+          "a": [
+            "Real, and worst in still weather from June to August on the west coast. The east coast and a breeze solve most of it."
+          ]
+        },
+        {
+          "q": "Is an estate only for shooting?",
+          "a": [
+            "No. Most of the estates we use are taken by families who never pick up a rod or a rifle and simply want the house and the hill."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}

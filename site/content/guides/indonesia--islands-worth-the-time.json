@@ -1,0 +1,71 @@
+{
+  "slug": "islands-worth-the-time",
+  "country": "Indonesia",
+  "countryKey": "indonesia",
+  "eyebrow": "Destinations / Southeast Asia / Indonesia",
+  "title": "Islands worth the time",
+  "standfirst": "Thousands of islands, of which perhaps six are worth a member's fortnight in any given season.",
+  "hero": "photo-1561501900-3701fa6a0864",
+  "blocks": [
+    {
+      "type": "intro",
+      "heading": "A boat as the hotel",
+      "paras": [
+        "The archipelago is too large to travel by hotel. Beyond Bali, the good way to move is on a boat that sleeps you between islands.",
+        "<strong>A phinisi charter for five or six nights</strong> reaches anchorages that no land-based itinerary can, and it removes the daily packing entirely."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Bali, chosen carefully",
+      "image": "photo-1770185998570-db739db7af47",
+      "caption": "Ridge and cliff villas away from the south.",
+      "paras": [
+        "Bali is still worth it, and almost nothing in the south of the island is. The ridges above the river valleys and the eastern cliffs are a different place.",
+        "<strong>We use Bali as the arrival and the recovery</strong>, three nights either side of the boat, in houses rather than resorts."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Diving and the dragons",
+      "image": "photo-1523496922380-91d5afba98a3",
+      "caption": "Komodo and Flores, reached by water.",
+      "paras": [
+        "The water east of Bali holds some of the best diving in the world and the currents are serious.",
+        "<strong>We match the guide to the member's certification honestly</strong>, and we plan around tides rather than around a schedule."
+      ]
+    },
+    {
+      "type": "faq",
+      "heading": "Questions members ask",
+      "intro": "The ones that come up nearly every time.",
+      "items": [
+        {
+          "q": "When should we go?",
+          "a": [
+            "<strong>April to October</strong> for Bali, Komodo and Flores. Sumatra and the Moluccas run on different patterns."
+          ]
+        },
+        {
+          "q": "Is a charter worth it?",
+          "a": [
+            "For six or more people, it usually costs less per head than equivalent rooms ashore, and it reaches places they cannot."
+          ]
+        },
+        {
+          "q": "How long?",
+          "a": [
+            "Twelve nights minimum if a boat is involved. Shorter trips are better spent on one island."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "We are ready when you are",
+      "paras": [
+        "Every itinerary starts with a conversation about what you actually want from the days, and works backwards to houses, guides and timing from there."
+      ]
+    }
+  ]
+}
